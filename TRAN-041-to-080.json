@@ -1,0 +1,4082 @@
+[
+  {
+    "id": "TRAN-041-A",
+    "family_id": "TRAN-041",
+    "source_concept_number": 41,
+    "concept": "Crest curve sight distance",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "For a crest curve with a stipulated S>L equation L=2S−2800/A, S=500 ft and A=4 percentage points, find length.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "200 ft"
+      },
+      {
+        "id": "B",
+        "text": "250 ft"
+      },
+      {
+        "id": "C",
+        "text": "300 ft"
+      },
+      {
+        "id": "D",
+        "text": "500 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "L=1000−2800/4=300 ft; 500>300 confirms S>L.",
+    "transfer_skill": "Always check formula domain; do not publish the two calculation-only items without the S>L alternate.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": "The denominator 2800 is stipulated to create a stand-alone equation-selection exercise."
+  },
+  {
+    "id": "TRAN-041-B",
+    "family_id": "TRAN-041",
+    "source_concept_number": 41,
+    "concept": "Crest curve sight distance",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "A crest curve is 300 ft long with A=4 percentage points. Using S>L relation L=2S−2800/A, available sight distance is?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "350 ft"
+      },
+      {
+        "id": "B",
+        "text": "400 ft"
+      },
+      {
+        "id": "C",
+        "text": "500 ft"
+      },
+      {
+        "id": "D",
+        "text": "600 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "S=(L+2800/A)/2=(300+700)/2=500 ft, greater than L.",
+    "transfer_skill": "Always check formula domain; do not publish the two calculation-only items without the S>L alternate.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": "The denominator 2800 is stipulated to create a stand-alone equation-selection exercise."
+  },
+  {
+    "id": "TRAN-041-C",
+    "family_id": "TRAN-041",
+    "source_concept_number": 41,
+    "concept": "Crest curve sight distance",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "For S=425 ft and A=4%, the trial S≤L formula L=AS²/2800 produces 258 ft. Which is correct?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "258 ft is valid"
+      },
+      {
+        "id": "B",
+        "text": "Use S>L instead; L=150 ft"
+      },
+      {
+        "id": "C",
+        "text": "Use L=425 ft"
+      },
+      {
+        "id": "D",
+        "text": "Use L=700 ft"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "Trial 258<425 violates S≤L; alternate L=2×425−2800/4=150 ft, with S>L consistent.",
+    "transfer_skill": "Always check formula domain; do not publish the two calculation-only items without the S>L alternate.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": "The denominator 2800 is stipulated to create a stand-alone equation-selection exercise."
+  },
+  {
+    "id": "TRAN-042-A",
+    "family_id": "TRAN-042",
+    "source_concept_number": 42,
+    "concept": "Sag curve with lighting",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A project permits the illuminated-sag comfort criterion L=AV²/46.5. Given A=3% and V=40 mph, find L.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "83 ft"
+      },
+      {
+        "id": "B",
+        "text": "103 ft"
+      },
+      {
+        "id": "C",
+        "text": "129 ft"
+      },
+      {
+        "id": "D",
+        "text": "160 ft"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "L=3×40²/46.5=103.23 ft.",
+    "transfer_skill": "Recognize stipulated criterion and rearrange for L, A, or V. The assumption of lighting must be explicit.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-042-B",
+    "family_id": "TRAN-042",
+    "source_concept_number": 42,
+    "concept": "Sag curve with lighting",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "An illuminated sag curve is 200 ft long, design speed 50 mph. Using L=AV²/46.5, what is maximum grade difference A?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "2.72%"
+      },
+      {
+        "id": "B",
+        "text": "3.72%"
+      },
+      {
+        "id": "C",
+        "text": "4.65%"
+      },
+      {
+        "id": "D",
+        "text": "5.72%"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "A=200×46.5/50²=3.72%.",
+    "transfer_skill": "Recognize stipulated criterion and rearrange for L, A, or V. The assumption of lighting must be explicit.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-042-C",
+    "family_id": "TRAN-042",
+    "source_concept_number": 42,
+    "concept": "Sag curve with lighting",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "An illuminated sag curve has A=4% and L=300 ft. Under L=AV²/46.5, what limiting speed is most nearly?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "49 mph"
+      },
+      {
+        "id": "B",
+        "text": "55 mph"
+      },
+      {
+        "id": "C",
+        "text": "59 mph"
+      },
+      {
+        "id": "D",
+        "text": "65 mph"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "V=sqrt(300×46.5/4)=59.06 mph.",
+    "transfer_skill": "Recognize stipulated criterion and rearrange for L, A, or V. The assumption of lighting must be explicit.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-043-A",
+    "family_id": "TRAN-043",
+    "source_concept_number": 43,
+    "concept": "K-value and drainage tradeoffs",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A crest curve has A=2.5%. A stipulated sight-distance minimum K=100 and a maximum drainage-preferred K=150. Which proposed length satisfies both?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "200 ft"
+      },
+      {
+        "id": "B",
+        "text": "275 ft"
+      },
+      {
+        "id": "C",
+        "text": "400 ft"
+      },
+      {
+        "id": "D",
+        "text": "500 ft"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "Allowable L is 250–375 ft; 275 ft only.",
+    "transfer_skill": "Distinguish minimum safety geometry from stipulated drainage objective; do not treat either as universal.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-043-B",
+    "family_id": "TRAN-043",
+    "source_concept_number": 43,
+    "concept": "K-value and drainage tradeoffs",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "A 450-ft curve has A=3%. With a stipulated maximum K=125 for a drainage objective, how much must its length be reduced to meet the maximum?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "25 ft"
+      },
+      {
+        "id": "B",
+        "text": "50 ft"
+      },
+      {
+        "id": "C",
+        "text": "75 ft"
+      },
+      {
+        "id": "D",
+        "text": "100 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "K=450/3=150; target L=125×3=375; reduction=75 ft.",
+    "transfer_skill": "Distinguish minimum safety geometry from stipulated drainage objective; do not treat either as universal.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-043-C",
+    "family_id": "TRAN-043",
+    "source_concept_number": 43,
+    "concept": "K-value and drainage tradeoffs",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "Two sight-distance criteria specify K=90 and K=190 for a grade change of 1.8%. What is the difference in resulting curve lengths?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "90 ft"
+      },
+      {
+        "id": "B",
+        "text": "144 ft"
+      },
+      {
+        "id": "C",
+        "text": "180 ft"
+      },
+      {
+        "id": "D",
+        "text": "342 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "ΔL=(190−90)×1.8=180 ft.",
+    "transfer_skill": "Distinguish minimum safety geometry from stipulated drainage objective; do not treat either as universal.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-044-A",
+    "family_id": "TRAN-044",
+    "source_concept_number": 44,
+    "concept": "Rail crossing approach stopping distance",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A driver travels 50 mph with 2.5-sec reaction time and 11.2 ft/s² braking. Add 20 ft from stop line to rail and 8 ft driver setback. What is total highway sight-triangle length?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "398 ft"
+      },
+      {
+        "id": "B",
+        "text": "424 ft"
+      },
+      {
+        "id": "C",
+        "text": "452 ft"
+      },
+      {
+        "id": "D",
+        "text": "480 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Reaction 1.467×50×2.5=183.4; braking (73.33²)/(2×11.2)=240.1; +28=451.5 ft.",
+    "transfer_skill": "Separate reaction, braking and geometric setbacks.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-044-B",
+    "family_id": "TRAN-044",
+    "source_concept_number": 44,
+    "concept": "Rail crossing approach stopping distance",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "A crossing requires 460 ft of highway sight distance. Reaction and braking total 430 ft; stop-line-to-rail distance is 22 ft. What driver setback is included?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "6 ft"
+      },
+      {
+        "id": "B",
+        "text": "8 ft"
+      },
+      {
+        "id": "C",
+        "text": "12 ft"
+      },
+      {
+        "id": "D",
+        "text": "30 ft"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "Setback=460−430−22=8 ft.",
+    "transfer_skill": "Separate reaction, braking and geometric setbacks.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-044-C",
+    "family_id": "TRAN-044",
+    "source_concept_number": 44,
+    "concept": "Rail crossing approach stopping distance",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "At 40 mph, reaction time is 3 sec and braking deceleration is 12 ft/s². Add 18 ft rail setback and 7 ft driver setback. Required distance most nearly?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "270 ft"
+      },
+      {
+        "id": "B",
+        "text": "345 ft"
+      },
+      {
+        "id": "C",
+        "text": "420 ft"
+      },
+      {
+        "id": "D",
+        "text": "500 ft"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "v=58.67 ft/s; d=176.0+143.4+25=344.4 ft.",
+    "transfer_skill": "Separate reaction, braking and geometric setbacks.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-045-A",
+    "family_id": "TRAN-045",
+    "source_concept_number": 45,
+    "concept": "Intersection sight distance for trucks",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A project specifies an 11-sec accepted gap for a truck entering a 45-mph major road. Using ISD=1.47Vt, find ISD.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "594 ft"
+      },
+      {
+        "id": "B",
+        "text": "655 ft"
+      },
+      {
+        "id": "C",
+        "text": "728 ft"
+      },
+      {
+        "id": "D",
+        "text": "809 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "1.47×45×11=727.65 ft.",
+    "transfer_skill": "Find correct crossing gap, apply only stipulated adjustments, then multiply by major-road speed.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-045-B",
+    "family_id": "TRAN-045",
+    "source_concept_number": 45,
+    "concept": "Intersection sight distance for trucks",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "Available intersection sight distance is 735 ft, major-road speed 50 mph. What maximum gap time is covered?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "8.5 sec"
+      },
+      {
+        "id": "B",
+        "text": "9.0 sec"
+      },
+      {
+        "id": "C",
+        "text": "10.0 sec"
+      },
+      {
+        "id": "D",
+        "text": "11.0 sec"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "t=735/(1.47×50)=10.0 sec.",
+    "transfer_skill": "Find correct crossing gap, apply only stipulated adjustments, then multiply by major-road speed.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-045-C",
+    "family_id": "TRAN-045",
+    "source_concept_number": 45,
+    "concept": "Intersection sight distance for trucks",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "Base accepted gap is 9.5 sec. Project criteria add 0.7 sec for each of two extra crossing lanes and 0.5 sec for grade. At 40 mph, required ISD is most nearly?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "559 ft"
+      },
+      {
+        "id": "B",
+        "text": "612 ft"
+      },
+      {
+        "id": "C",
+        "text": "671 ft"
+      },
+      {
+        "id": "D",
+        "text": "735 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Adjusted gap=9.5+2(0.7)+0.5=11.4 sec; ISD=1.47×40×11.4=670.32 ft.",
+    "transfer_skill": "Find correct crossing gap, apply only stipulated adjustments, then multiply by major-road speed.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-046-A",
+    "family_id": "TRAN-046",
+    "source_concept_number": 46,
+    "concept": "Ramp pavement width",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A project vehicle-swept-path analysis requires 16 ft clear width. Barrier curb encroachment allowances are 1 ft each side. What total paved width is required?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "16 ft"
+      },
+      {
+        "id": "B",
+        "text": "17 ft"
+      },
+      {
+        "id": "C",
+        "text": "18 ft"
+      },
+      {
+        "id": "D",
+        "text": "20 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "16+1+1=18 ft.",
+    "transfer_skill": "Keep swept-path required clear width separate from edge allowances.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-046-B",
+    "family_id": "TRAN-046",
+    "source_concept_number": 46,
+    "concept": "Ramp pavement width",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "The paved ramp is 19 ft wide; each of two curbs consumes 1 ft of usable width. What usable width remains?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "15 ft"
+      },
+      {
+        "id": "B",
+        "text": "16 ft"
+      },
+      {
+        "id": "C",
+        "text": "17 ft"
+      },
+      {
+        "id": "D",
+        "text": "18 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "19−2=17 ft.",
+    "transfer_skill": "Keep swept-path required clear width separate from edge allowances.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-046-C",
+    "family_id": "TRAN-046",
+    "source_concept_number": 46,
+    "concept": "Ramp pavement width",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "A ramp needs 17 ft operational width plus 1 ft for barrier curb on the right and 0.5 ft on the left. Available construction widths are 18, 19, 20 and 22 ft. Smallest adequate is?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "18 ft"
+      },
+      {
+        "id": "B",
+        "text": "19 ft"
+      },
+      {
+        "id": "C",
+        "text": "20 ft"
+      },
+      {
+        "id": "D",
+        "text": "22 ft"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "17+1+0.5=18.5 ft; select 19 ft as smallest available adequate.",
+    "transfer_skill": "Keep swept-path required clear width separate from edge allowances.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-047-A",
+    "family_id": "TRAN-047",
+    "source_concept_number": 47,
+    "concept": "Ramp acceleration length",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A simplified constant-acceleration ramp model accelerates from 30 to 60 mph at a=3 ft/s². Ignoring grade and taper, required distance?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "660 ft"
+      },
+      {
+        "id": "B",
+        "text": "968 ft"
+      },
+      {
+        "id": "C",
+        "text": "1,320 ft"
+      },
+      {
+        "id": "D",
+        "text": "1,650 ft"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "v1=44, v2=88 ft/s; L=(88²−44²)/(2×3)=968 ft.",
+    "transfer_skill": "These are intentionally simplified kinematic exercises, not substitutes for AASHTO acceleration-length design tables.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": "Simplified mechanics, not an authoritative geometric design-table substitution."
+  },
+  {
+    "id": "TRAN-047-B",
+    "family_id": "TRAN-047",
+    "source_concept_number": 47,
+    "concept": "Ramp acceleration length",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "A ramp accelerates from 35 to 55 mph over 600 ft at constant acceleration. Acceleration most nearly?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "1.3 ft/s²"
+      },
+      {
+        "id": "B",
+        "text": "2.2 ft/s²"
+      },
+      {
+        "id": "C",
+        "text": "3.2 ft/s²"
+      },
+      {
+        "id": "D",
+        "text": "4.2 ft/s²"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "v1=51.33, v2=80.67 ft/s; a=(v2²−v1²)/1200=3.23 ft/s².",
+    "transfer_skill": "These are intentionally simplified kinematic exercises, not substitutes for AASHTO acceleration-length design tables.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": "Simplified mechanics, not an authoritative geometric design-table substitution."
+  },
+  {
+    "id": "TRAN-047-C",
+    "family_id": "TRAN-047",
+    "source_concept_number": 47,
+    "concept": "Ramp acceleration length",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "A 45-mph ramp has a 700-ft acceleration lane. With constant a=2.5 ft/s², approximate end speed?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "55 mph"
+      },
+      {
+        "id": "B",
+        "text": "60 mph"
+      },
+      {
+        "id": "C",
+        "text": "65 mph"
+      },
+      {
+        "id": "D",
+        "text": "70 mph"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "v2=sqrt(66²+2×2.5×700)=88.63 ft/s=60.4 mph.",
+    "transfer_skill": "These are intentionally simplified kinematic exercises, not substitutes for AASHTO acceleration-length design tables.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": "Simplified mechanics, not an authoritative geometric design-table substitution."
+  },
+  {
+    "id": "TRAN-048-A",
+    "family_id": "TRAN-048",
+    "source_concept_number": 48,
+    "concept": "Acceleration lane and grade",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "For a project-specific ramp model, base acceleration distance is 620 ft and 4% upgrade correction is +15%. What adjusted distance?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "527 ft"
+      },
+      {
+        "id": "B",
+        "text": "620 ft"
+      },
+      {
+        "id": "C",
+        "text": "713 ft"
+      },
+      {
+        "id": "D",
+        "text": "775 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "620×1.15=713 ft.",
+    "transfer_skill": "Use explicit project adjustment factors pending applicable design-table verification.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-048-B",
+    "family_id": "TRAN-048",
+    "source_concept_number": 48,
+    "concept": "Acceleration lane and grade",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "Required adjusted distance is 840 ft after a 20% upgrade increase. What base distance was used?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "672 ft"
+      },
+      {
+        "id": "B",
+        "text": "700 ft"
+      },
+      {
+        "id": "C",
+        "text": "800 ft"
+      },
+      {
+        "id": "D",
+        "text": "1,008 ft"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "840/1.20=700 ft.",
+    "transfer_skill": "Use explicit project adjustment factors pending applicable design-table verification.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-048-C",
+    "family_id": "TRAN-048",
+    "source_concept_number": 48,
+    "concept": "Acceleration lane and grade",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "A level-grade length is 680 ft. The project defines a −10% downgrade adjustment. Available lane lengths are 600, 625, 650 and 700 ft. Smallest adequate is?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "600 ft"
+      },
+      {
+        "id": "B",
+        "text": "625 ft"
+      },
+      {
+        "id": "C",
+        "text": "650 ft"
+      },
+      {
+        "id": "D",
+        "text": "700 ft"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "680×0.90=612 ft; minimum listed ≥612 is 625 ft.",
+    "transfer_skill": "Use explicit project adjustment factors pending applicable design-table verification.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-049-A",
+    "family_id": "TRAN-049",
+    "source_concept_number": 49,
+    "concept": "Modern roundabout identification",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "Which control pattern is characteristic of a modern roundabout?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Entering vehicles have priority"
+      },
+      {
+        "id": "B",
+        "text": "Circulating vehicles have priority"
+      },
+      {
+        "id": "C",
+        "text": "All approaches use STOP control"
+      },
+      {
+        "id": "D",
+        "text": "Entry and circulating vehicles alternate by signal"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "Modern roundabouts use yield-at-entry to circulating traffic; this is a general design characteristic.",
+    "transfer_skill": "Teach entry priority, deflection and distinguishing operational characteristics.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-049-B",
+    "family_id": "TRAN-049",
+    "source_concept_number": 49,
+    "concept": "Modern roundabout identification",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "A driver approaching a modern roundabout sees traffic already circulating. What is expected before entering?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Stop regardless of conflict"
+      },
+      {
+        "id": "B",
+        "text": "Yield to circulating traffic"
+      },
+      {
+        "id": "C",
+        "text": "Accelerate to match speed without yielding"
+      },
+      {
+        "id": "D",
+        "text": "Follow a four-way-stop turn order"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "Yield to circulating vehicles before entering.",
+    "transfer_skill": "Teach entry priority, deflection and distinguishing operational characteristics.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-049-C",
+    "family_id": "TRAN-049",
+    "source_concept_number": 49,
+    "concept": "Modern roundabout identification",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "Which feature typically helps lower entering speeds on a modern roundabout?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Straight high-speed entry"
+      },
+      {
+        "id": "B",
+        "text": "Deflected approach geometry"
+      },
+      {
+        "id": "C",
+        "text": "Unrestricted tangent entry"
+      },
+      {
+        "id": "D",
+        "text": "Priority for entering traffic"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "Entry deflection controls entry path and speed.",
+    "transfer_skill": "Teach entry priority, deflection and distinguishing operational characteristics.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-050-A",
+    "family_id": "TRAN-050",
+    "source_concept_number": 50,
+    "concept": "Intersection corner-return stationing",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A corner return is a quarter circle with 32-ft radius. Its PC is at station 5+20. What PT station follows along the return centerline?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "5+32.00"
+      },
+      {
+        "id": "B",
+        "text": "5+50.27"
+      },
+      {
+        "id": "C",
+        "text": "5+70.27"
+      },
+      {
+        "id": "D",
+        "text": "6+20.53"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Arc L=π×32/2=50.27 ft; PT=520+50.27=5+70.27.",
+    "transfer_skill": "Separate centerline station progression from tangent distances in sketches.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-050-B",
+    "family_id": "TRAN-050",
+    "source_concept_number": 50,
+    "concept": "Intersection corner-return stationing",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "A 90° corner arc has length 47.12 ft. What radius is most nearly?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "15 ft"
+      },
+      {
+        "id": "B",
+        "text": "25 ft"
+      },
+      {
+        "id": "C",
+        "text": "30 ft"
+      },
+      {
+        "id": "D",
+        "text": "47 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "R=2L/π≈30.00 ft.",
+    "transfer_skill": "Separate centerline station progression from tangent distances in sketches.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-050-C",
+    "family_id": "TRAN-050",
+    "source_concept_number": 50,
+    "concept": "Intersection corner-return stationing",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "Two 90° corner returns of radius 20 ft are separated by a 60-ft tangent. From initial PC station 2+00, what station is final PT?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "2+91.42"
+      },
+      {
+        "id": "B",
+        "text": "3+02.83"
+      },
+      {
+        "id": "C",
+        "text": "3+22.83"
+      },
+      {
+        "id": "D",
+        "text": "3+62.83"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Total=2(π20/2)+60=122.83 ft; station 3+22.83.",
+    "transfer_skill": "Separate centerline station progression from tangent distances in sketches.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-051-A",
+    "family_id": "TRAN-051",
+    "source_concept_number": 51,
+    "concept": "Intersection design considerations",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A design team must accommodate frequent large trucks turning at a downtown junction. Which investigation directly supports corner-return design?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Design-vehicle swept path"
+      },
+      {
+        "id": "B",
+        "text": "Annual rainfall total"
+      },
+      {
+        "id": "C",
+        "text": "Signal-cabinet color"
+      },
+      {
+        "id": "D",
+        "text": "Pavement marking supplier"
+      }
+    ],
+    "correct_answer": "A",
+    "solution": "Vehicle swept path tests offtracking and usable geometry.",
+    "transfer_skill": "Turn an original multi-select concept into independent single-answer applied judgments.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-051-B",
+    "family_id": "TRAN-051",
+    "source_concept_number": 51,
+    "concept": "Intersection design considerations",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "An intersection is near another signalized junction. Which factor should be considered to reduce queue spillback risk?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Intersection spacing and storage"
+      },
+      {
+        "id": "B",
+        "text": "Pipe roughness only"
+      },
+      {
+        "id": "C",
+        "text": "Pavement age only"
+      },
+      {
+        "id": "D",
+        "text": "Sign retroreflectivity only"
+      }
+    ],
+    "correct_answer": "A",
+    "solution": "Spacing and storage govern interaction between queues.",
+    "transfer_skill": "Turn an original multi-select concept into independent single-answer applied judgments.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-051-C",
+    "family_id": "TRAN-051",
+    "source_concept_number": 51,
+    "concept": "Intersection design considerations",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "Where pedestrians cross a wide divided roadway, what design element can provide a staged crossing when appropriately designed?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Median refuge island"
+      },
+      {
+        "id": "B",
+        "text": "Steeper curb"
+      },
+      {
+        "id": "C",
+        "text": "Shorter visibility triangle"
+      },
+      {
+        "id": "D",
+        "text": "Removal of accessible routes"
+      }
+    ],
+    "correct_answer": "A",
+    "solution": "A properly designed median refuge creates a staged crossing opportunity.",
+    "transfer_skill": "Turn an original multi-select concept into independent single-answer applied judgments.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-052-A",
+    "family_id": "TRAN-052",
+    "source_concept_number": 52,
+    "concept": "Pedestrian clearance timing",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A crosswalk has effective clearance distance 84 ft. Using stipulated walking speed 3.5 ft/s, what minimum clearance interval is most nearly?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "20 sec"
+      },
+      {
+        "id": "B",
+        "text": "24 sec"
+      },
+      {
+        "id": "C",
+        "text": "28 sec"
+      },
+      {
+        "id": "D",
+        "text": "32 sec"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "84/3.5=24 sec; excludes WALK and any separately required buffers.",
+    "transfer_skill": "Distinguish clearance interval from WALK interval; verify governing edition before publish.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-052-B",
+    "family_id": "TRAN-052",
+    "source_concept_number": 52,
+    "concept": "Pedestrian clearance timing",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "An agency specifies 3.0 ft/s walking speed and 25-sec pedestrian clearance. What maximum crossing distance is supported?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "60 ft"
+      },
+      {
+        "id": "B",
+        "text": "70 ft"
+      },
+      {
+        "id": "C",
+        "text": "75 ft"
+      },
+      {
+        "id": "D",
+        "text": "90 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "d=3×25=75 ft.",
+    "transfer_skill": "Distinguish clearance interval from WALK interval; verify governing edition before publish.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-052-C",
+    "family_id": "TRAN-052",
+    "source_concept_number": 52,
+    "concept": "Pedestrian clearance timing",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "A 90-ft crossing uses 3.5 ft/s and must have whole-second minimum clearance. Which value satisfies the calculation?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "25 sec"
+      },
+      {
+        "id": "B",
+        "text": "26 sec"
+      },
+      {
+        "id": "C",
+        "text": "27 sec"
+      },
+      {
+        "id": "D",
+        "text": "30 sec"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "90/3.5=25.714 sec; minimum whole second=26 sec.",
+    "transfer_skill": "Distinguish clearance interval from WALK interval; verify governing edition before publish.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-053-A",
+    "family_id": "TRAN-053",
+    "source_concept_number": 53,
+    "concept": "Signal progression offset",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "Two coordinated signals are 1,320 ft apart. Desired progression speed is 30 mph. Travel-time offset most nearly?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "20 sec"
+      },
+      {
+        "id": "B",
+        "text": "30 sec"
+      },
+      {
+        "id": "C",
+        "text": "40 sec"
+      },
+      {
+        "id": "D",
+        "text": "60 sec"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "30 mph=44 ft/s; 1320/44=30 sec.",
+    "transfer_skill": "Offsets follow progression travel and cycle wrap; real bandwidth optimization requires more parameters.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-053-B",
+    "family_id": "TRAN-053",
+    "source_concept_number": 53,
+    "concept": "Signal progression offset",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "Signals are 1,760 ft apart and progression speed is 40 mph. With 90-sec cycle, what travel-time offset modulo one cycle?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "20 sec"
+      },
+      {
+        "id": "B",
+        "text": "30 sec"
+      },
+      {
+        "id": "C",
+        "text": "60 sec"
+      },
+      {
+        "id": "D",
+        "text": "90 sec"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "40 mph=58.67 ft/s; travel=30 sec; modulo 90 remains 30.",
+    "transfer_skill": "Offsets follow progression travel and cycle wrap; real bandwidth optimization requires more parameters.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-053-C",
+    "family_id": "TRAN-053",
+    "source_concept_number": 53,
+    "concept": "Signal progression offset",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "Three signals have successive travel times 18 sec and 24 sec; cycle is 70 sec. Starting first signal at zero, desired third-signal offset is?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "24 sec"
+      },
+      {
+        "id": "B",
+        "text": "42 sec"
+      },
+      {
+        "id": "C",
+        "text": "52 sec"
+      },
+      {
+        "id": "D",
+        "text": "70 sec"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "18+24=42 sec; cycle wrap not needed.",
+    "transfer_skill": "Offsets follow progression travel and cycle wrap; real bandwidth optimization requires more parameters.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-054-A",
+    "family_id": "TRAN-054",
+    "source_concept_number": 54,
+    "concept": "Signal warrant analysis",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "For a classroom warrant exercise, an agency requires at least 8 qualifying hours with major ≥600 vph and minor ≥150 vph in each hour. Data show 7 qualifying hours. Result?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Warrant met"
+      },
+      {
+        "id": "B",
+        "text": "Warrant not met"
+      },
+      {
+        "id": "C",
+        "text": "Always install signal"
+      },
+      {
+        "id": "D",
+        "text": "Need no study"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "Seven does not meet stated eight-hour count; this simplified criterion is supplied, not current MUTCD text.",
+    "transfer_skill": "Use explicitly stipulated mock thresholds; real warrant determinations require full current manual and jurisdiction review.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-054-B",
+    "family_id": "TRAN-054",
+    "source_concept_number": 54,
+    "concept": "Signal warrant analysis",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "A project criterion requires five qualifying crash types in 12 months. Four qualify; two other crashes are outside the stated type set. How many qualifying crashes?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      }
+    ],
+    "correct_answer": "A",
+    "solution": "Only four are within the stipulated eligible set.",
+    "transfer_skill": "Use explicitly stipulated mock thresholds; real warrant determinations require full current manual and jurisdiction review.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-054-C",
+    "family_id": "TRAN-054",
+    "source_concept_number": 54,
+    "concept": "Signal warrant analysis",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "An intersection meets a stipulated numerical warrant. Which conclusion is justified?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Signal installation is automatic"
+      },
+      {
+        "id": "B",
+        "text": "Engineering study is still needed"
+      },
+      {
+        "id": "C",
+        "text": "No other design review is permitted"
+      },
+      {
+        "id": "D",
+        "text": "Stop signs are prohibited"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "Satisfying a warrant does not alone determine that a traffic signal should be installed.",
+    "transfer_skill": "Use explicitly stipulated mock thresholds; real warrant determinations require full current manual and jurisdiction review.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-055-A",
+    "family_id": "TRAN-055",
+    "source_concept_number": 55,
+    "concept": "Traffic signal engineering study",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A volume threshold has been met at an intersection. What should the engineer do before recommending a new signal?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Install automatically"
+      },
+      {
+        "id": "B",
+        "text": "Evaluate safety, operations and alternatives"
+      },
+      {
+        "id": "C",
+        "text": "Ignore approach geometry"
+      },
+      {
+        "id": "D",
+        "text": "Rely solely on total daily volume"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "A warrant is a screening criterion, not an automatic installation mandate.",
+    "transfer_skill": "Original single-answer variants of a reference-study concept.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-055-B",
+    "family_id": "TRAN-055",
+    "source_concept_number": 55,
+    "concept": "Traffic signal engineering study",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "Queues from a new signal could block a nearby upstream intersection. Which study is directly relevant?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Progression and queue spillback"
+      },
+      {
+        "id": "B",
+        "text": "Paint color"
+      },
+      {
+        "id": "C",
+        "text": "Embankment Proctor only"
+      },
+      {
+        "id": "D",
+        "text": "Culvert barrel material only"
+      }
+    ],
+    "correct_answer": "A",
+    "solution": "Coordination and queue storage affect system operations.",
+    "transfer_skill": "Original single-answer variants of a reference-study concept.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-055-C",
+    "family_id": "TRAN-055",
+    "source_concept_number": 55,
+    "concept": "Traffic signal engineering study",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "Which study practice supports a defensible traffic-control recommendation?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Use only one peak 15-min count"
+      },
+      {
+        "id": "B",
+        "text": "Document volumes, crashes, geometry, alternatives and applicable criteria"
+      },
+      {
+        "id": "C",
+        "text": "Assume warrants replace judgment"
+      },
+      {
+        "id": "D",
+        "text": "Ignore pedestrian needs"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "Use multiple relevant forms of evidence and the governing criteria.",
+    "transfer_skill": "Original single-answer variants of a reference-study concept.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-056-A",
+    "family_id": "TRAN-056",
+    "source_concept_number": 56,
+    "concept": "Vehicular signal mounting clearance",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A project requires top of overhead signal housing no higher than 25 ft. A proposed housing top is 25.7 ft. Minimum lowering to comply?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "0.3 ft"
+      },
+      {
+        "id": "B",
+        "text": "0.7 ft"
+      },
+      {
+        "id": "C",
+        "text": "1.3 ft"
+      },
+      {
+        "id": "D",
+        "text": "2.0 ft"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "25.7−25.0=0.7 ft. The 25-ft criterion is stipulated for this project exercise.",
+    "transfer_skill": "Distinguish bottom clearance from top mounting height and cite governing manual during final review.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-056-B",
+    "family_id": "TRAN-056",
+    "source_concept_number": 56,
+    "concept": "Vehicular signal mounting clearance",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "Bottom of overhead housing is at 18.5 ft; housing height is 4.0 ft. What is top elevation above pavement?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "14.5 ft"
+      },
+      {
+        "id": "B",
+        "text": "18.5 ft"
+      },
+      {
+        "id": "C",
+        "text": "22.5 ft"
+      },
+      {
+        "id": "D",
+        "text": "24.5 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "18.5+4=22.5 ft.",
+    "transfer_skill": "Distinguish bottom clearance from top mounting height and cite governing manual during final review.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-056-C",
+    "family_id": "TRAN-056",
+    "source_concept_number": 56,
+    "concept": "Vehicular signal mounting clearance",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "Maximum allowable top height is 24 ft; housing is 3.5 ft tall. What is maximum allowable bottom height?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "19.5 ft"
+      },
+      {
+        "id": "B",
+        "text": "20.5 ft"
+      },
+      {
+        "id": "C",
+        "text": "21.5 ft"
+      },
+      {
+        "id": "D",
+        "text": "27.5 ft"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "24−3.5=20.5 ft.",
+    "transfer_skill": "Distinguish bottom clearance from top mounting height and cite governing manual during final review.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-057-A",
+    "family_id": "TRAN-057",
+    "source_concept_number": 57,
+    "concept": "Pedestrian signal mounting",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A project specifies pedestrian signal housing bottom from 7 to 10 ft above sidewalk. A proposed mounting at 8.5 ft is?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Below range"
+      },
+      {
+        "id": "B",
+        "text": "Within range"
+      },
+      {
+        "id": "C",
+        "text": "Above range"
+      },
+      {
+        "id": "D",
+        "text": "Unverifiable without cycle length"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "8.5 lies within stipulated 7–10 ft range.",
+    "transfer_skill": "Specified mounting datum matters; reference version to verify.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-057-B",
+    "family_id": "TRAN-057",
+    "source_concept_number": 57,
+    "concept": "Pedestrian signal mounting",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "A pedestrian head has bottom 7.5 ft and housing height 2.0 ft. Top elevation above sidewalk is?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "5.5 ft"
+      },
+      {
+        "id": "B",
+        "text": "7.5 ft"
+      },
+      {
+        "id": "C",
+        "text": "9.5 ft"
+      },
+      {
+        "id": "D",
+        "text": "10.5 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "7.5+2.0=9.5 ft.",
+    "transfer_skill": "Specified mounting datum matters; reference version to verify.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-057-C",
+    "family_id": "TRAN-057",
+    "source_concept_number": 57,
+    "concept": "Pedestrian signal mounting",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "Agency criterion requires minimum bottom height 7 ft. Existing mounting is 6.6 ft; minimum raise is?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "0.2 ft"
+      },
+      {
+        "id": "B",
+        "text": "0.4 ft"
+      },
+      {
+        "id": "C",
+        "text": "0.6 ft"
+      },
+      {
+        "id": "D",
+        "text": "1.4 ft"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "7.0−6.6=0.4 ft.",
+    "transfer_skill": "Specified mounting datum matters; reference version to verify.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-058-A",
+    "family_id": "TRAN-058",
+    "source_concept_number": 58,
+    "concept": "Delineator spacing on curves",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "An agency design worksheet specifies S=3sqrt(R−50) feet for a curve. For R=950 ft, find S.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "60 ft"
+      },
+      {
+        "id": "B",
+        "text": "75 ft"
+      },
+      {
+        "id": "C",
+        "text": "90 ft"
+      },
+      {
+        "id": "D",
+        "text": "105 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "S=3sqrt(900)=90 ft. This is a stipulated worksheet rule, not a confirmed manual formula.",
+    "transfer_skill": "Avoid asserting exact MUTCD delineator equation until edition and footnote are verified.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": "NEEDS_REFERENCE_REVIEW"
+  },
+  {
+    "id": "TRAN-058-B",
+    "family_id": "TRAN-058",
+    "source_concept_number": 58,
+    "concept": "Delineator spacing on curves",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "Under S=3sqrt(R−50), a 75-ft spacing corresponds to what radius?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "475 ft"
+      },
+      {
+        "id": "B",
+        "text": "575 ft"
+      },
+      {
+        "id": "C",
+        "text": "675 ft"
+      },
+      {
+        "id": "D",
+        "text": "725 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "R=(75/3)²+50=675 ft.",
+    "transfer_skill": "Avoid asserting exact MUTCD delineator equation until edition and footnote are verified.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": "NEEDS_REFERENCE_REVIEW"
+  },
+  {
+    "id": "TRAN-058-C",
+    "family_id": "TRAN-058",
+    "source_concept_number": 58,
+    "concept": "Delineator spacing on curves",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "Using worksheet rule S=3sqrt(R−50), how does spacing change from R=450 to R=950 ft?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "+15 ft"
+      },
+      {
+        "id": "B",
+        "text": "+20 ft"
+      },
+      {
+        "id": "C",
+        "text": "+30 ft"
+      },
+      {
+        "id": "D",
+        "text": "+45 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "S1=3sqrt(400)=60; S2=3sqrt(900)=90; increase=30 ft.",
+    "transfer_skill": "Avoid asserting exact MUTCD delineator equation until edition and footnote are verified.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": "NEEDS_REFERENCE_REVIEW"
+  },
+  {
+    "id": "TRAN-059-A",
+    "family_id": "TRAN-059",
+    "source_concept_number": 59,
+    "concept": "Lane-shift taper length",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "For a project with speed 35 mph, use stipulated low-speed taper relation L=WS²/60. Shift width W=8 ft. What taper length?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "125 ft"
+      },
+      {
+        "id": "B",
+        "text": "163 ft"
+      },
+      {
+        "id": "C",
+        "text": "205 ft"
+      },
+      {
+        "id": "D",
+        "text": "280 ft"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "L=8×35²/60=163.3 ft.",
+    "transfer_skill": "Identify width and type of taper before applying the stipulated rule.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-059-B",
+    "family_id": "TRAN-059",
+    "source_concept_number": 59,
+    "concept": "Lane-shift taper length",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "A project uses L=WS at 50 mph. What length for a 6-ft shift?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "150 ft"
+      },
+      {
+        "id": "B",
+        "text": "250 ft"
+      },
+      {
+        "id": "C",
+        "text": "300 ft"
+      },
+      {
+        "id": "D",
+        "text": "500 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "L=6×50=300 ft.",
+    "transfer_skill": "Identify width and type of taper before applying the stipulated rule.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-059-C",
+    "family_id": "TRAN-059",
+    "source_concept_number": 59,
+    "concept": "Lane-shift taper length",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "A project uses L=WS with speed 55 mph and width 12 ft, then a shifting taper at half the full L. Find shifting taper.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "165 ft"
+      },
+      {
+        "id": "B",
+        "text": "275 ft"
+      },
+      {
+        "id": "C",
+        "text": "330 ft"
+      },
+      {
+        "id": "D",
+        "text": "660 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Full L=12×55=660; shifting=330 ft.",
+    "transfer_skill": "Identify width and type of taper before applying the stipulated rule.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-060-A",
+    "family_id": "TRAN-060",
+    "source_concept_number": 60,
+    "concept": "Freeway exit guide-sign concepts",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "At a freeway exit with an optional lane shared by through and exiting traffic, what must signing communicate?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Only interchange name"
+      },
+      {
+        "id": "B",
+        "text": "Clear lane-by-lane destination/exit assignment"
+      },
+      {
+        "id": "C",
+        "text": "Only the downstream speed limit"
+      },
+      {
+        "id": "D",
+        "text": "Only ramp pavement width"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "Appropriate signing must distinguish optional and exit-only lane movements.",
+    "transfer_skill": "The final actual permitted sign scheme must be checked against the governing MUTCD; no diagram is copied.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-060-B",
+    "family_id": "TRAN-060",
+    "source_concept_number": 60,
+    "concept": "Freeway exit guide-sign concepts",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "A reconstruction replaces a single exit with a multilane exit. Which information should guide the revised overhead sign concept?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Lane-use configuration and destinations"
+      },
+      {
+        "id": "B",
+        "text": "Landscaping species"
+      },
+      {
+        "id": "C",
+        "text": "Signal cabinet vendor"
+      },
+      {
+        "id": "D",
+        "text": "Underdrain length"
+      }
+    ],
+    "correct_answer": "A",
+    "solution": "Sign layout should follow actual lane assignments and destinations.",
+    "transfer_skill": "The final actual permitted sign scheme must be checked against the governing MUTCD; no diagram is copied.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-060-C",
+    "family_id": "TRAN-060",
+    "source_concept_number": 60,
+    "concept": "Freeway exit guide-sign concepts",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "A guide sign incorrectly portrays an optional exit lane as exit-only. Principal concern?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Misleading lane assignment"
+      },
+      {
+        "id": "B",
+        "text": "Excessive channel roughness"
+      },
+      {
+        "id": "C",
+        "text": "Wrong pavement thickness"
+      },
+      {
+        "id": "D",
+        "text": "Reduced rainfall intensity"
+      }
+    ],
+    "correct_answer": "A",
+    "solution": "Drivers may make incorrect lane-use decisions from incorrect overhead signing.",
+    "transfer_skill": "The final actual permitted sign scheme must be checked against the governing MUTCD; no diagram is copied.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-061-A",
+    "family_id": "TRAN-061",
+    "source_concept_number": 61,
+    "concept": "Shifting taper",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A work zone shifts a 12-ft lane laterally at 55 mph. For this project L=WS for merging taper and shifting taper is 1/2 L. Find shifting length.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "220 ft"
+      },
+      {
+        "id": "B",
+        "text": "275 ft"
+      },
+      {
+        "id": "C",
+        "text": "330 ft"
+      },
+      {
+        "id": "D",
+        "text": "660 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Full L=12×55=660; shift=330 ft.",
+    "transfer_skill": "Do not confuse merging and shifting taper fractions.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-061-B",
+    "family_id": "TRAN-061",
+    "source_concept_number": 61,
+    "concept": "Shifting taper",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "Shifting taper must be 300 ft at 50 mph and is one-half WS. Required shift width?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "6 ft"
+      },
+      {
+        "id": "B",
+        "text": "10 ft"
+      },
+      {
+        "id": "C",
+        "text": "12 ft"
+      },
+      {
+        "id": "D",
+        "text": "15 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "300=0.5×W×50, hence W=12 ft.",
+    "transfer_skill": "Do not confuse merging and shifting taper fractions.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-061-C",
+    "family_id": "TRAN-061",
+    "source_concept_number": 61,
+    "concept": "Shifting taper",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "A shift of 10 ft at 45 mph requires half of WS. Available taper lengths are 200, 225, 250, 300 ft; shortest adequate?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "200 ft"
+      },
+      {
+        "id": "B",
+        "text": "225 ft"
+      },
+      {
+        "id": "C",
+        "text": "250 ft"
+      },
+      {
+        "id": "D",
+        "text": "300 ft"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "L=0.5×10×45=225 ft.",
+    "transfer_skill": "Do not confuse merging and shifting taper fractions.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-062-A",
+    "family_id": "TRAN-062",
+    "source_concept_number": 62,
+    "concept": "Temporary alignment warning",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "Traffic is moved left then immediately right around a work area. Which description best matches the alignment?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Single horizontal turn"
+      },
+      {
+        "id": "B",
+        "text": "Reverse curves"
+      },
+      {
+        "id": "C",
+        "text": "Constant tangent"
+      },
+      {
+        "id": "D",
+        "text": "Vertical crest"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "Successive horizontal deflections in opposite directions are reverse curves.",
+    "transfer_skill": "Exact MUTCD sign designations require current manual graphic review; avoid guessing code numbers.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": "NEEDS_REFERENCE_REVIEW"
+  },
+  {
+    "id": "TRAN-062-B",
+    "family_id": "TRAN-062",
+    "source_concept_number": 62,
+    "concept": "Temporary alignment warning",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "A work-zone lane is temporarily shifted to the right through opposing curves. The warning must primarily convey?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Lane-shift alignment"
+      },
+      {
+        "id": "B",
+        "text": "Bridge live-load limit"
+      },
+      {
+        "id": "C",
+        "text": "Aquifer depth"
+      },
+      {
+        "id": "D",
+        "text": "Pavement friction test"
+      }
+    ],
+    "correct_answer": "A",
+    "solution": "The alignment change must be conveyed; precise sign code requires drawing/reference review.",
+    "transfer_skill": "Exact MUTCD sign designations require current manual graphic review; avoid guessing code numbers.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": "NEEDS_REFERENCE_REVIEW"
+  },
+  {
+    "id": "TRAN-062-C",
+    "family_id": "TRAN-062",
+    "source_concept_number": 62,
+    "concept": "Temporary alignment warning",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "An arrow-style lane-reduction sign is proposed for a pure lane shift with no lane removed. Main issue?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "It implies a lane drops rather than shifts"
+      },
+      {
+        "id": "B",
+        "text": "It is a bridge sign"
+      },
+      {
+        "id": "C",
+        "text": "It is a drainage sign"
+      },
+      {
+        "id": "D",
+        "text": "It measures gradient"
+      }
+    ],
+    "correct_answer": "A",
+    "solution": "Use a warning suited to the actual geometry.",
+    "transfer_skill": "Exact MUTCD sign designations require current manual graphic review; avoid guessing code numbers.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": "NEEDS_REFERENCE_REVIEW"
+  },
+  {
+    "id": "TRAN-063-A",
+    "family_id": "TRAN-063",
+    "source_concept_number": 63,
+    "concept": "Merging taper selection",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A lane closure is on a 60-mph roadway with 12-ft lateral offset. Using stipulated L=WS, required merging taper length?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "360 ft"
+      },
+      {
+        "id": "B",
+        "text": "600 ft"
+      },
+      {
+        "id": "C",
+        "text": "720 ft"
+      },
+      {
+        "id": "D",
+        "text": "840 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "12×60=720 ft.",
+    "transfer_skill": "Check selected speed regime and whether this is a merging or shifting taper.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-063-B",
+    "family_id": "TRAN-063",
+    "source_concept_number": 63,
+    "concept": "Merging taper selection",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "A full merging taper is 660 ft with 12-ft shift. Under L=WS, speed is?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "45 mph"
+      },
+      {
+        "id": "B",
+        "text": "50 mph"
+      },
+      {
+        "id": "C",
+        "text": "55 mph"
+      },
+      {
+        "id": "D",
+        "text": "60 mph"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "S=660/12=55 mph.",
+    "transfer_skill": "Check selected speed regime and whether this is a merging or shifting taper.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-063-C",
+    "family_id": "TRAN-063",
+    "source_concept_number": 63,
+    "concept": "Merging taper selection",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "A 10-ft shift at 50 mph requires L=WS. If only 480 ft is available, minimum extra taper length?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "10 ft"
+      },
+      {
+        "id": "B",
+        "text": "20 ft"
+      },
+      {
+        "id": "C",
+        "text": "30 ft"
+      },
+      {
+        "id": "D",
+        "text": "50 ft"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "Required 500 ft; deficit 500−480=20 ft.",
+    "transfer_skill": "Check selected speed regime and whether this is a merging or shifting taper.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-064-A",
+    "family_id": "TRAN-064",
+    "source_concept_number": 64,
+    "concept": "Concrete cylinder compressive strength",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A 6-in diameter concrete cylinder fails at 84,800 lb. Compressive stress most nearly?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "1,500 psi"
+      },
+      {
+        "id": "B",
+        "text": "2,400 psi"
+      },
+      {
+        "id": "C",
+        "text": "3,000 psi"
+      },
+      {
+        "id": "D",
+        "text": "3,600 psi"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Area=π×6²/4=28.274 in²; 84,800/28.274=2,999 psi.",
+    "transfer_skill": "Cylinder geometry and force units must remain consistent.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-064-B",
+    "family_id": "TRAN-064",
+    "source_concept_number": 64,
+    "concept": "Concrete cylinder compressive strength",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "Three 6-in cylinders fail at 80,000, 85,000 and 90,000 lb. Average nominal compressive strength?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "2,500 psi"
+      },
+      {
+        "id": "B",
+        "text": "2,800 psi"
+      },
+      {
+        "id": "C",
+        "text": "3,000 psi"
+      },
+      {
+        "id": "D",
+        "text": "3,300 psi"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Mean load=85,000 lb; divide by 28.274=3,006 psi.",
+    "transfer_skill": "Cylinder geometry and force units must remain consistent.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-064-C",
+    "family_id": "TRAN-064",
+    "source_concept_number": 64,
+    "concept": "Concrete cylinder compressive strength",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "A 4-in diameter cylinder must reach 4,000 psi. What corresponding failure load is most nearly?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "25,100 lb"
+      },
+      {
+        "id": "B",
+        "text": "40,000 lb"
+      },
+      {
+        "id": "C",
+        "text": "50,300 lb"
+      },
+      {
+        "id": "D",
+        "text": "64,000 lb"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "P=fA=4,000×π(4²)/4=50,265 lb.",
+    "transfer_skill": "Cylinder geometry and force units must remain consistent.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-065-A",
+    "family_id": "TRAN-065",
+    "source_concept_number": 65,
+    "concept": "DCP/subgrade correlation",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A project-specific calibration is CBR=250/(DCP index), with index in mm/blow. What CBR for index 20?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "12.5"
+      },
+      {
+        "id": "D",
+        "text": "20"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "CBR=250/20=12.5; empirical correlation is stipulated, not universal.",
+    "transfer_skill": "Use given empirical equation; confirm soil type and calibration before practical design.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-065-B",
+    "family_id": "TRAN-065",
+    "source_concept_number": 65,
+    "concept": "DCP/subgrade correlation",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "Under a site-specific CBR=300/index relation, an estimated CBR of 15 corresponds to what index?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "10 mm/blow"
+      },
+      {
+        "id": "B",
+        "text": "15 mm/blow"
+      },
+      {
+        "id": "C",
+        "text": "20 mm/blow"
+      },
+      {
+        "id": "D",
+        "text": "30 mm/blow"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Index=300/15=20 mm/blow.",
+    "transfer_skill": "Use given empirical equation; confirm soil type and calibration before practical design.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-065-C",
+    "family_id": "TRAN-065",
+    "source_concept_number": 65,
+    "concept": "DCP/subgrade correlation",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "Two locations have DCP indices 15 and 30 mm/blow under CBR=240/index. Which comparison is correct?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Both CBR 8"
+      },
+      {
+        "id": "B",
+        "text": "CBR 8 and 16"
+      },
+      {
+        "id": "C",
+        "text": "CBR 16 and 8"
+      },
+      {
+        "id": "D",
+        "text": "CBR 16 and 16"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "240/15=16 and 240/30=8; greater penetration/blow indicates lower estimated CBR in this calibration.",
+    "transfer_skill": "Use given empirical equation; confirm soil type and calibration before practical design.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-066-A",
+    "family_id": "TRAN-066",
+    "source_concept_number": 66,
+    "concept": "Standard penetration test interpretation",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "For cohesionless soil, an SPT N-value is primarily used as which type of measure?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Direct pore pressure"
+      },
+      {
+        "id": "B",
+        "text": "Indirect relative-density indicator"
+      },
+      {
+        "id": "C",
+        "text": "Direct concrete strength"
+      },
+      {
+        "id": "D",
+        "text": "Direct permeability"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "SPT blow count provides an indirect index requiring corrections/interpretation.",
+    "transfer_skill": "N-values require energy/overburden corrections for some correlations; do not imply direct strength.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-066-B",
+    "family_id": "TRAN-066",
+    "source_concept_number": 66,
+    "concept": "Standard penetration test interpretation",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "A field log has N-value from blows in second and third 6-in drives of 9 and 12. N is?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "9"
+      },
+      {
+        "id": "B",
+        "text": "12"
+      },
+      {
+        "id": "C",
+        "text": "21"
+      },
+      {
+        "id": "D",
+        "text": "30"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Conventional SPT N=9+12=21 blows/ft; first 6-in seating drive excluded.",
+    "transfer_skill": "N-values require energy/overburden corrections for some correlations; do not imply direct strength.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-066-C",
+    "family_id": "TRAN-066",
+    "source_concept_number": 66,
+    "concept": "Standard penetration test interpretation",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "Recorded 6-in drive blow counts are 5, 8 and 10. Report uncorrected SPT N.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "13"
+      },
+      {
+        "id": "B",
+        "text": "15"
+      },
+      {
+        "id": "C",
+        "text": "18"
+      },
+      {
+        "id": "D",
+        "text": "23"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "N=8+10=18, not the sum of all three intervals.",
+    "transfer_skill": "N-values require energy/overburden corrections for some correlations; do not imply direct strength.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-067-A",
+    "family_id": "TRAN-067",
+    "source_concept_number": 67,
+    "concept": "Embankment soil selection",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "Two available soils are clean well-graded granular fill and highly organic clay. Which is generally more suitable for a compacted roadway embankment after site-specific testing?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Highly organic clay"
+      },
+      {
+        "id": "B",
+        "text": "Clean granular fill"
+      },
+      {
+        "id": "C",
+        "text": "Both categorically identical"
+      },
+      {
+        "id": "D",
+        "text": "Neither can be characterized"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "Granular soils generally have fewer organic compressibility concerns; project testing still required.",
+    "transfer_skill": "Qualitative geotechnical ranking needs site-specific laboratory/field evidence for final design.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-067-B",
+    "family_id": "TRAN-067",
+    "source_concept_number": 67,
+    "concept": "Embankment soil selection",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "Which observed property raises a significant settlement concern for embankment foundation soils?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "High organic content"
+      },
+      {
+        "id": "B",
+        "text": "Low organic content alone"
+      },
+      {
+        "id": "C",
+        "text": "Clean gravel classification alone"
+      },
+      {
+        "id": "D",
+        "text": "Documented dense sand alone"
+      }
+    ],
+    "correct_answer": "A",
+    "solution": "Organic soils often compress substantially under added load.",
+    "transfer_skill": "Qualitative geotechnical ranking needs site-specific laboratory/field evidence for final design.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-067-C",
+    "family_id": "TRAN-067",
+    "source_concept_number": 67,
+    "concept": "Embankment soil selection",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "An embankment design must reduce differential settlement across soft ground. Which investigation directly informs design?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Subsurface compressibility and stratigraphy"
+      },
+      {
+        "id": "B",
+        "text": "Sign face color"
+      },
+      {
+        "id": "C",
+        "text": "Traffic signal cycle alone"
+      },
+      {
+        "id": "D",
+        "text": "Pavement striping width alone"
+      }
+    ],
+    "correct_answer": "A",
+    "solution": "Layer thickness and compressibility govern settlement estimates.",
+    "transfer_skill": "Qualitative geotechnical ranking needs site-specific laboratory/field evidence for final design.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-068-A",
+    "family_id": "TRAN-068",
+    "source_concept_number": 68,
+    "concept": "Earthwork net quantities",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A roadway section has 1,800 bank yd³ excavation and 1,400 compacted yd³ required fill. Excavated soil yields 0.80 compacted yd³ per bank yd³. Surplus compacted-equivalent material?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "40 yd³"
+      },
+      {
+        "id": "C",
+        "text": "140 yd³"
+      },
+      {
+        "id": "D",
+        "text": "400 yd³"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "Usable compacted volume=1800×0.8=1440; surplus=40 compacted yd³.",
+    "transfer_skill": "Track bank, loose and compacted volumes explicitly.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-068-B",
+    "family_id": "TRAN-068",
+    "source_concept_number": 68,
+    "concept": "Earthwork net quantities",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "A project needs 2,000 compacted yd³ fill. Available bank soil yields 0.80 compacted yd³ per bank yd³. Minimum bank excavation needed?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "1,600 yd³"
+      },
+      {
+        "id": "B",
+        "text": "2,000 yd³"
+      },
+      {
+        "id": "C",
+        "text": "2,500 yd³"
+      },
+      {
+        "id": "D",
+        "text": "3,000 yd³"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Required bank volume=2000/0.8=2500 yd³.",
+    "transfer_skill": "Track bank, loose and compacted volumes explicitly.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-068-C",
+    "family_id": "TRAN-068",
+    "source_concept_number": 68,
+    "concept": "Earthwork net quantities",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "Net cross-sectional cut areas at 100-ft spacing are 35 and 55 ft². Using average end area, cut volume is most nearly?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "83 yd³"
+      },
+      {
+        "id": "B",
+        "text": "125 yd³"
+      },
+      {
+        "id": "C",
+        "text": "167 yd³"
+      },
+      {
+        "id": "D",
+        "text": "333 yd³"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "V=(35+55)/2×100/27=166.67 yd³.",
+    "transfer_skill": "Track bank, loose and compacted volumes explicitly.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-069-A",
+    "family_id": "TRAN-069",
+    "source_concept_number": 69,
+    "concept": "Mass haul balance",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "Cumulative net earthwork begins at 0 and at successive stations is +300, +700, +200, 0 yd³. First balance point after origin is at which station?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Station 1"
+      },
+      {
+        "id": "B",
+        "text": "Station 2"
+      },
+      {
+        "id": "C",
+        "text": "Station 3"
+      },
+      {
+        "id": "D",
+        "text": "Station 4"
+      }
+    ],
+    "correct_answer": "D",
+    "solution": "A balance point returns cumulative mass to starting ordinate, here station 4.",
+    "transfer_skill": "Balance point is a repeated mass ordinate; distinguish cut-positive sign convention.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-069-B",
+    "family_id": "TRAN-069",
+    "source_concept_number": 69,
+    "concept": "Mass haul balance",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "Cumulative mass ordinates at stations 0–4 are 0, +500, +200, −100, 0 yd³. What is the final net earthwork balance?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "100 yd³ cut"
+      },
+      {
+        "id": "B",
+        "text": "100 yd³ fill"
+      },
+      {
+        "id": "C",
+        "text": "0 yd³"
+      },
+      {
+        "id": "D",
+        "text": "500 yd³ cut"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Final minus initial mass ordinate =0.",
+    "transfer_skill": "Balance point is a repeated mass ordinate; distinguish cut-positive sign convention.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-069-C",
+    "family_id": "TRAN-069",
+    "source_concept_number": 69,
+    "concept": "Mass haul balance",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "A haul diagram rises from 0 to +600 yd³ then falls to +250 yd³. Net volume remaining above starting ordinate?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "250 yd³"
+      },
+      {
+        "id": "B",
+        "text": "350 yd³"
+      },
+      {
+        "id": "C",
+        "text": "600 yd³"
+      },
+      {
+        "id": "D",
+        "text": "850 yd³"
+      }
+    ],
+    "correct_answer": "A",
+    "solution": "Final cumulative value is +250 yd³; do not add absolute movements.",
+    "transfer_skill": "Balance point is a repeated mass ordinate; distinguish cut-positive sign convention.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-070-A",
+    "family_id": "TRAN-070",
+    "source_concept_number": 70,
+    "concept": "Pavement fatigue / cracking",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A flexible pavement displays interconnected cracks in wheelpaths from repeated traffic loads. Likely distress mechanism?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Fatigue cracking"
+      },
+      {
+        "id": "B",
+        "text": "Transverse thermal crack only"
+      },
+      {
+        "id": "C",
+        "text": "Joint faulting"
+      },
+      {
+        "id": "D",
+        "text": "Pure surface polishing"
+      }
+    ],
+    "correct_answer": "A",
+    "solution": "Repeated loading and inadequate structural support can produce alligator fatigue cracking.",
+    "transfer_skill": "Do not conflate fatigue with unrelated surface defects.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-070-B",
+    "family_id": "TRAN-070",
+    "source_concept_number": 70,
+    "concept": "Pavement fatigue / cracking",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "Which rehabilitation assessment is directly relevant to widespread wheelpath alligator cracking?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Base/subgrade condition and structural capacity"
+      },
+      {
+        "id": "B",
+        "text": "Sign legend letter height"
+      },
+      {
+        "id": "C",
+        "text": "Signal offset alone"
+      },
+      {
+        "id": "D",
+        "text": "Rain gauge color"
+      }
+    ],
+    "correct_answer": "A",
+    "solution": "Structural causes must be assessed before choosing surface treatment.",
+    "transfer_skill": "Do not conflate fatigue with unrelated surface defects.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-070-C",
+    "family_id": "TRAN-070",
+    "source_concept_number": 70,
+    "concept": "Pavement fatigue / cracking",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "A thin surface seal is proposed over severe structural fatigue cracking without addressing weak base. Principal risk?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Underlying distress continues"
+      },
+      {
+        "id": "B",
+        "text": "Subgrade stiffness automatically doubles"
+      },
+      {
+        "id": "C",
+        "text": "Cracks become expansion joints"
+      },
+      {
+        "id": "D",
+        "text": "Traffic volume disappears"
+      }
+    ],
+    "correct_answer": "A",
+    "solution": "Surface-only treatment does not correct underlying structural weakness.",
+    "transfer_skill": "Do not conflate fatigue with unrelated surface defects.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-071-A",
+    "family_id": "TRAN-071",
+    "source_concept_number": 71,
+    "concept": "Mean areal precipitation",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "Four equally representative gauges measure 1.5, 2.0, 2.5 and 4.0 in. Arithmetic mean?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "2.0 in"
+      },
+      {
+        "id": "B",
+        "text": "2.5 in"
+      },
+      {
+        "id": "C",
+        "text": "3.0 in"
+      },
+      {
+        "id": "D",
+        "text": "4.0 in"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "(1.5+2+2.5+4)/4=2.5 in.",
+    "transfer_skill": "Arithmetic mean assumes gauges are representative and equally weighted.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-071-B",
+    "family_id": "TRAN-071",
+    "source_concept_number": 71,
+    "concept": "Mean areal precipitation",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "Five equal-weight gauges total 18 in of recorded depth. Average?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "2.6 in"
+      },
+      {
+        "id": "B",
+        "text": "3.0 in"
+      },
+      {
+        "id": "C",
+        "text": "3.6 in"
+      },
+      {
+        "id": "D",
+        "text": "4.5 in"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "18/5=3.6 in.",
+    "transfer_skill": "Arithmetic mean assumes gauges are representative and equally weighted.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-071-C",
+    "family_id": "TRAN-071",
+    "source_concept_number": 71,
+    "concept": "Mean areal precipitation",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "Three gauges measure 2, 3 and 7 in. A fourth is added with 4 in. How does arithmetic mean change?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Decreases 1 in"
+      },
+      {
+        "id": "B",
+        "text": "No change"
+      },
+      {
+        "id": "C",
+        "text": "Increases 0.5 in"
+      },
+      {
+        "id": "D",
+        "text": "Increases 1 in"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "First mean=4; new mean=(2+3+7+4)/4=4.",
+    "transfer_skill": "Arithmetic mean assumes gauges are representative and equally weighted.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-072-A",
+    "family_id": "TRAN-072",
+    "source_concept_number": 72,
+    "concept": "Rational method peak runoff",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "For a drainage area of 75 acres, use Q=CiA with C=0.80 and rainfall intensity 3.0 in/hr. Peak Q?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "120 cfs"
+      },
+      {
+        "id": "B",
+        "text": "160 cfs"
+      },
+      {
+        "id": "C",
+        "text": "180 cfs"
+      },
+      {
+        "id": "D",
+        "text": "240 cfs"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "0.8×3×75=180 cfs (U.S. approximate coefficient).",
+    "transfer_skill": "Use rainfall duration corresponding to time of concentration and an appropriate coefficient.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-072-B",
+    "family_id": "TRAN-072",
+    "source_concept_number": 72,
+    "concept": "Rational method peak runoff",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "A basin has C=0.65 and area 100 acres. To obtain Q=195 cfs under Q=CiA, required intensity?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "2.0 in/hr"
+      },
+      {
+        "id": "B",
+        "text": "2.5 in/hr"
+      },
+      {
+        "id": "C",
+        "text": "3.0 in/hr"
+      },
+      {
+        "id": "D",
+        "text": "3.5 in/hr"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "i=195/(0.65×100)=3 in/hr.",
+    "transfer_skill": "Use rainfall duration corresponding to time of concentration and an appropriate coefficient.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-072-C",
+    "family_id": "TRAN-072",
+    "source_concept_number": 72,
+    "concept": "Rational method peak runoff",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "Two impervious subareas have C1=0.9 A1=20 acres and C2=0.3 A2=30 acres. Weighted C?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "0.42"
+      },
+      {
+        "id": "B",
+        "text": "0.48"
+      },
+      {
+        "id": "C",
+        "text": "0.54"
+      },
+      {
+        "id": "D",
+        "text": "0.60"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Weighted C=(0.9×20+0.3×30)/50=27/50=0.54.",
+    "transfer_skill": "Use rainfall duration corresponding to time of concentration and an appropriate coefficient.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-073-A",
+    "family_id": "TRAN-073",
+    "source_concept_number": 73,
+    "concept": "Erosion terminology",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "Diffuse shallow removal of soil across a surface before distinct channels form is called?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Sheet erosion"
+      },
+      {
+        "id": "B",
+        "text": "Gully erosion"
+      },
+      {
+        "id": "C",
+        "text": "Pipe corrosion"
+      },
+      {
+        "id": "D",
+        "text": "Scour at a pier only"
+      }
+    ],
+    "correct_answer": "A",
+    "solution": "Sheet erosion is relatively uniform surface removal.",
+    "transfer_skill": "Contrast sheet, rill and gully by form and scale.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-073-B",
+    "family_id": "TRAN-073",
+    "source_concept_number": 73,
+    "concept": "Erosion terminology",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "Small, concentrated channels formed by runoff on bare soil are classified as?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Sheet erosion"
+      },
+      {
+        "id": "B",
+        "text": "Rill erosion"
+      },
+      {
+        "id": "C",
+        "text": "Wind deposition"
+      },
+      {
+        "id": "D",
+        "text": "Concrete scaling"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "Rills are small incised flow paths.",
+    "transfer_skill": "Contrast sheet, rill and gully by form and scale.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-073-C",
+    "family_id": "TRAN-073",
+    "source_concept_number": 73,
+    "concept": "Erosion terminology",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "Large, concentrated erosion channels that cannot typically be smoothed by normal tillage are?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Rills only"
+      },
+      {
+        "id": "B",
+        "text": "Gully erosion"
+      },
+      {
+        "id": "C",
+        "text": "Sheet flow only"
+      },
+      {
+        "id": "D",
+        "text": "Efflorescence"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "Gullies are deeper, larger concentrated channels.",
+    "transfer_skill": "Contrast sheet, rill and gully by form and scale.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-074-A",
+    "family_id": "TRAN-074",
+    "source_concept_number": 74,
+    "concept": "Land use and runoff sensitivity",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A 40-acre basin has 10 acres at C=0.2 and 30 acres at C=0.6. Weighted C?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "0.40"
+      },
+      {
+        "id": "B",
+        "text": "0.45"
+      },
+      {
+        "id": "C",
+        "text": "0.50"
+      },
+      {
+        "id": "D",
+        "text": "0.60"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "(10×0.2+30×0.6)/40=0.5.",
+    "transfer_skill": "Change both weighted runoff coefficient and rainfall intensity when time of concentration changes.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-074-B",
+    "family_id": "TRAN-074",
+    "source_concept_number": 74,
+    "concept": "Land use and runoff sensitivity",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "A 20-acre portion of a 50-acre basin changes C from 0.2 to 0.8. At fixed intensity 3 in/hr, increase in Q under Q=CiA?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "18 cfs"
+      },
+      {
+        "id": "B",
+        "text": "24 cfs"
+      },
+      {
+        "id": "C",
+        "text": "36 cfs"
+      },
+      {
+        "id": "D",
+        "text": "60 cfs"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "ΔQ=3×20×(0.8−0.2)=36 cfs.",
+    "transfer_skill": "Change both weighted runoff coefficient and rainfall intensity when time of concentration changes.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-074-C",
+    "family_id": "TRAN-074",
+    "source_concept_number": 74,
+    "concept": "Land use and runoff sensitivity",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "A watershed coefficient rises from 0.40 to 0.55 while design rainfall intensity rises from 2.5 to 3.0 in/hr. Area=80 acres. Increase in rational peak flow?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "28 cfs"
+      },
+      {
+        "id": "B",
+        "text": "40 cfs"
+      },
+      {
+        "id": "C",
+        "text": "52 cfs"
+      },
+      {
+        "id": "D",
+        "text": "72 cfs"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Before Q=0.4×2.5×80=80; after=0.55×3×80=132; Δ=52 cfs.",
+    "transfer_skill": "Change both weighted runoff coefficient and rainfall intensity when time of concentration changes.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-075-A",
+    "family_id": "TRAN-075",
+    "source_concept_number": 75,
+    "concept": "Manning conveyance and discharge time",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A channel conveys 12 cfs continuously. How long to discharge 18 acre-ft, ignoring inflow and variable stage?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "12.1 hr"
+      },
+      {
+        "id": "B",
+        "text": "16.5 hr"
+      },
+      {
+        "id": "C",
+        "text": "18.2 hr"
+      },
+      {
+        "id": "D",
+        "text": "24.0 hr"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Volume=18×43560=784080 ft³; time=784080/12/3600=18.15 hr.",
+    "transfer_skill": "Manning determines capacity; volume divided by discharge determines time.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": "Assumes steady depth and flow; Manning coefficient stipulated."
+  },
+  {
+    "id": "TRAN-075-B",
+    "family_id": "TRAN-075",
+    "source_concept_number": 75,
+    "concept": "Manning conveyance and discharge time",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "A rectangular channel is 5 ft wide, water depth 2 ft, n=.025, slope .001. Using Q=(1.49/n)AR^(2/3)S^0.5, Q most nearly?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "12 cfs"
+      },
+      {
+        "id": "B",
+        "text": "17 cfs"
+      },
+      {
+        "id": "C",
+        "text": "20 cfs"
+      },
+      {
+        "id": "D",
+        "text": "24 cfs"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "A=10; P=5+4=9; R=10/9; Q≈20.2 cfs.",
+    "transfer_skill": "Manning determines capacity; volume divided by discharge determines time.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": "Assumes steady depth and flow; Manning coefficient stipulated."
+  },
+  {
+    "id": "TRAN-075-C",
+    "family_id": "TRAN-075",
+    "source_concept_number": 75,
+    "concept": "Manning conveyance and discharge time",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "A 300,000-ft³ storage volume is released at constant 15 cfs. Time most nearly?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "3.6 hr"
+      },
+      {
+        "id": "B",
+        "text": "4.6 hr"
+      },
+      {
+        "id": "C",
+        "text": "5.6 hr"
+      },
+      {
+        "id": "D",
+        "text": "7.6 hr"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "t=300000/(15×3600)=5.56 hr.",
+    "transfer_skill": "Manning determines capacity; volume divided by discharge determines time.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": "Assumes steady depth and flow; Manning coefficient stipulated."
+  },
+  {
+    "id": "TRAN-076-A",
+    "family_id": "TRAN-076",
+    "source_concept_number": 76,
+    "concept": "Full-flow pipe sizing",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "For equal slope and roughness, full circular Manning flow scales as D^(8/3). Two 12-in pipes combine. What minimum diameter meets combined capacity?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "14 in"
+      },
+      {
+        "id": "B",
+        "text": "15 in"
+      },
+      {
+        "id": "C",
+        "text": "16 in"
+      },
+      {
+        "id": "D",
+        "text": "18 in"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "D=12×2^(3/8)=15.56 in; smallest offered adequate 16 in.",
+    "transfer_skill": "The theoretical diameter is continuous; discrete commercial selection rounds to adequate size.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-076-B",
+    "family_id": "TRAN-076",
+    "source_concept_number": 76,
+    "concept": "Full-flow pipe sizing",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "Under Q proportional to D^(8/3), a 24-in pipe has approximately what capacity multiple of a 12-in pipe?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "2.0"
+      },
+      {
+        "id": "B",
+        "text": "4.0"
+      },
+      {
+        "id": "C",
+        "text": "6.35"
+      },
+      {
+        "id": "D",
+        "text": "8.0"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "(24/12)^(8/3)=6.35.",
+    "transfer_skill": "The theoretical diameter is continuous; discrete commercial selection rounds to adequate size.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-076-C",
+    "family_id": "TRAN-076",
+    "source_concept_number": 76,
+    "concept": "Full-flow pipe sizing",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "A 15-in pipe needs 50% more full-flow capacity at same slope/roughness. Required theoretical diameter most nearly?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "16 in"
+      },
+      {
+        "id": "B",
+        "text": "17.5 in"
+      },
+      {
+        "id": "C",
+        "text": "19 in"
+      },
+      {
+        "id": "D",
+        "text": "22 in"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "15×1.5^(3/8)=17.46 in; select commercial size separately.",
+    "transfer_skill": "The theoretical diameter is continuous; discrete commercial selection rounds to adequate size.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-077-A",
+    "family_id": "TRAN-077",
+    "source_concept_number": 77,
+    "concept": "Detention volume and fill time",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A 450,000-gallon basin receives 2.0 cfs continuously with no discharge. Fill time?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "6.4 hr"
+      },
+      {
+        "id": "B",
+        "text": "7.4 hr"
+      },
+      {
+        "id": "C",
+        "text": "8.4 hr"
+      },
+      {
+        "id": "D",
+        "text": "9.4 hr"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Volume=450000/7.48052=60156 ft³; t=60156/2/3600=8.36 hr.",
+    "transfer_skill": "Use net rate (inflow minus outflow); maximum ditch capacity is not actual event inflow.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-077-B",
+    "family_id": "TRAN-077",
+    "source_concept_number": 77,
+    "concept": "Detention volume and fill time",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "A basin has 50,000 ft³ usable storage, 5 cfs inflow and 2 cfs outflow. Fill time?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "2.8 hr"
+      },
+      {
+        "id": "B",
+        "text": "3.6 hr"
+      },
+      {
+        "id": "C",
+        "text": "4.6 hr"
+      },
+      {
+        "id": "D",
+        "text": "6.9 hr"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Net inflow=3 cfs; t=50000/3/3600=4.63 hr.",
+    "transfer_skill": "Use net rate (inflow minus outflow); maximum ditch capacity is not actual event inflow.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-077-C",
+    "family_id": "TRAN-077",
+    "source_concept_number": 77,
+    "concept": "Detention volume and fill time",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "A basin stores 80,000 ft³. It receives 8 cfs and releases 3 cfs steadily. Time to fill from empty?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "2.2 hr"
+      },
+      {
+        "id": "B",
+        "text": "3.3 hr"
+      },
+      {
+        "id": "C",
+        "text": "4.4 hr"
+      },
+      {
+        "id": "D",
+        "text": "5.5 hr"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Net=5 cfs; t=80000/(5×3600)=4.44 hr.",
+    "transfer_skill": "Use net rate (inflow minus outflow); maximum ditch capacity is not actual event inflow.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-078-A",
+    "family_id": "TRAN-078",
+    "source_concept_number": 78,
+    "concept": "Darcy-Weisbach pipe flow",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A full 2-ft pipe has L=1000 ft, f=0.02, head loss 10 ft. Using hf=f(L/D)V²/(2g), g=32.2 ft/s², find velocity.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "5.0 ft/s"
+      },
+      {
+        "id": "B",
+        "text": "6.0 ft/s"
+      },
+      {
+        "id": "C",
+        "text": "8.0 ft/s"
+      },
+      {
+        "id": "D",
+        "text": "10.0 ft/s"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "10=0.02×500×V²/64.4; V=sqrt(64.4)=8.025 ft/s.",
+    "transfer_skill": "Distinguish Darcy f from Fanning f and include all unit/diameter conversions.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-078-B",
+    "family_id": "TRAN-078",
+    "source_concept_number": 78,
+    "concept": "Darcy-Weisbach pipe flow",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "In a pipe, f=0.02, L=500 ft, D=2 ft, V=6 ft/s. Friction head loss?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "1.4 ft"
+      },
+      {
+        "id": "B",
+        "text": "2.8 ft"
+      },
+      {
+        "id": "C",
+        "text": "4.2 ft"
+      },
+      {
+        "id": "D",
+        "text": "5.6 ft"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "hf=.02×250×36/(64.4)=2.795 ft.",
+    "transfer_skill": "Distinguish Darcy f from Fanning f and include all unit/diameter conversions.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-078-C",
+    "family_id": "TRAN-078",
+    "source_concept_number": 78,
+    "concept": "Darcy-Weisbach pipe flow",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "For fixed f,L,D, doubling velocity increases Darcy friction head loss by factor?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "hf is proportional to V², so doubling V makes 4× loss.",
+    "transfer_skill": "Distinguish Darcy f from Fanning f and include all unit/diameter conversions.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-079-A",
+    "family_id": "TRAN-079",
+    "source_concept_number": 79,
+    "concept": "Bernoulli pressure head",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A horizontal lossless pipe contracts; flow speed rises from 4 to 8 ft/s. Pressure head change p2/γ−p1/γ is most nearly?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "−0.75 ft"
+      },
+      {
+        "id": "B",
+        "text": "0 ft"
+      },
+      {
+        "id": "C",
+        "text": "+0.75 ft"
+      },
+      {
+        "id": "D",
+        "text": "+1.5 ft"
+      }
+    ],
+    "correct_answer": "A",
+    "solution": "Δ(p/γ)=(V1²−V2²)/(2g)=(16−64)/64.4=−0.745 ft.",
+    "transfer_skill": "State location/elevation and whether losses are ignored.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-079-B",
+    "family_id": "TRAN-079",
+    "source_concept_number": 79,
+    "concept": "Bernoulli pressure head",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "In lossless flow at equal velocities, point 2 is 5 ft higher than point 1. Pressure head at point 2 is?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "5 ft higher"
+      },
+      {
+        "id": "B",
+        "text": "unchanged"
+      },
+      {
+        "id": "C",
+        "text": "5 ft lower"
+      },
+      {
+        "id": "D",
+        "text": "10 ft lower"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Bernoulli: pressure head drops 5 ft as elevation rises 5 ft.",
+    "transfer_skill": "State location/elevation and whether losses are ignored.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-079-C",
+    "family_id": "TRAN-079",
+    "source_concept_number": 79,
+    "concept": "Bernoulli pressure head",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "In a level, lossless conduit, pressure head increases 3 ft. What happens to velocity head?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "Increases 3 ft"
+      },
+      {
+        "id": "B",
+        "text": "Decreases 3 ft"
+      },
+      {
+        "id": "C",
+        "text": "Unchanged"
+      },
+      {
+        "id": "D",
+        "text": "Increases 6 ft"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "Total head conserved; a 3-ft rise in pressure head requires 3-ft loss of velocity head.",
+    "transfer_skill": "State location/elevation and whether losses are ignored.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": ""
+  },
+  {
+    "id": "TRAN-080-A",
+    "family_id": "TRAN-080",
+    "source_concept_number": 80,
+    "concept": "Rectangular channel width",
+    "variation": "standard/application",
+    "question_type": "multiple_choice",
+    "problem_statement": "A rectangular channel carries 40 cfs at depth 2 ft. Given mean flow speed 4 ft/s, minimum theoretical width?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "3 ft"
+      },
+      {
+        "id": "B",
+        "text": "4 ft"
+      },
+      {
+        "id": "C",
+        "text": "5 ft"
+      },
+      {
+        "id": "D",
+        "text": "6 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "A=Q/V=10 ft²; b=A/y=10/2=5 ft.",
+    "transfer_skill": "Keep hydraulic capacity and discrete buildable-size selection separate.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": "Constant depth and Manning inputs stipulated; width must meet required capacity."
+  },
+  {
+    "id": "TRAN-080-B",
+    "family_id": "TRAN-080",
+    "source_concept_number": 80,
+    "concept": "Rectangular channel width",
+    "variation": "inverse or changed scenario",
+    "question_type": "multiple_choice",
+    "problem_statement": "Under Manning, rectangular channel b=8 ft, y=2 ft, n=.02, S=.001. Discharge most nearly?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "30 cfs"
+      },
+      {
+        "id": "B",
+        "text": "40 cfs"
+      },
+      {
+        "id": "C",
+        "text": "46 cfs"
+      },
+      {
+        "id": "D",
+        "text": "55 cfs"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "A=16; P=12; R=4/3; Q=(1.49/.02)×16×(4/3)^(2/3)×sqrt(.001)=45.5 cfs.",
+    "transfer_skill": "Keep hydraulic capacity and discrete buildable-size selection separate.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": "Constant depth and Manning inputs stipulated; width must meet required capacity."
+  },
+  {
+    "id": "TRAN-080-C",
+    "family_id": "TRAN-080",
+    "source_concept_number": 80,
+    "concept": "Rectangular channel width",
+    "variation": "transfer or constraint",
+    "question_type": "multiple_choice",
+    "problem_statement": "An original channel design requires at least 13 ft of clear bottom width. Contractor builds only even-numbered widths. What smallest compliant width?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "12 ft"
+      },
+      {
+        "id": "B",
+        "text": "13 ft"
+      },
+      {
+        "id": "C",
+        "text": "14 ft"
+      },
+      {
+        "id": "D",
+        "text": "16 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "14 ft is the smallest even-numbered width ≥13 ft.",
+    "transfer_skill": "Keep hydraulic capacity and discrete buildable-size selection separate.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "reference_review": "Constant depth and Manning inputs stipulated; width must meet required capacity."
+  }
+]
