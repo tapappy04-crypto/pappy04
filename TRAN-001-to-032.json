@@ -1,0 +1,1770 @@
+[
+  {
+    "id": "TRAN-001-A",
+    "family_id": "TRAN-001",
+    "source_concept_number": 1,
+    "concept": "Concrete swale lining quantity",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "A roadway drainage swale is 180 ft long, has a 6-ft bottom, 4-ft depth, two 2H:1V sides, and 6-in. lining measured normal to the lined surface. Include 10% placement waste. How much concrete should be ordered?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "80 yd³"
+      },
+      {
+        "id": "B",
+        "text": "84 yd³"
+      },
+      {
+        "id": "C",
+        "text": "88 yd³"
+      },
+      {
+        "id": "D",
+        "text": "96 yd³"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Side length sqrt(8²+4²)=8.944 ft; lined width 6+2(8.944)=23.889 ft; volume 23.889(0.5)(180)/27(1.10)=87.59 yd³.",
+    "engineering_note": "Continuous material volume; round to answer precision.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-001-B",
+    "family_id": "TRAN-001",
+    "source_concept_number": 1,
+    "concept": "Concrete swale lining quantity",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Reverse: given purchased concrete volume, solve maximum lined swale length.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-001-C",
+    "family_id": "TRAN-001",
+    "source_concept_number": 1,
+    "concept": "Concrete swale lining quantity",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Compare two side slopes at fixed bottom width/depth to determine change in ordered volume.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-002-A",
+    "family_id": "TRAN-002",
+    "source_concept_number": 2,
+    "concept": "Crew duration with unpaid lunch",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "A crew of 8 installs drainage structures. The required labor work is estimated to cost $82,500 at $48 per worker-hour. Each 10-hour shift includes a 45-minute unpaid lunch. With 8 workers, what is the minimum number of whole workdays required to complete the work?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "21 days"
+      },
+      {
+        "id": "B",
+        "text": "23 days"
+      },
+      {
+        "id": "C",
+        "text": "24 days"
+      },
+      {
+        "id": "D",
+        "text": "29 days"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Required labor hours=82,500/48=1,718.75 worker-hours; crew/day=8(10−45/60)=74 worker-hours; required duration=23.226 days; minimum whole days=24.",
+    "engineering_note": "Required whole days round UP. This is a labor-work estimate, not a fixed spending cap.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-002-B",
+    "family_id": "TRAN-002",
+    "source_concept_number": 2,
+    "concept": "Crew duration with unpaid lunch",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given required labor-hours, determine minimum whole days with lunch deduction; round UP.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-002-C",
+    "family_id": "TRAN-002",
+    "source_concept_number": 2,
+    "concept": "Crew duration with unpaid lunch",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given budget and target duration, determine maximum affordable crew size.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-003-A",
+    "family_id": "TRAN-003",
+    "source_concept_number": 3,
+    "concept": "Hydraulic jack selection",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "Three identical jacks share a 2,400-kN load equally. Apply 15% design allowance. Which is the smallest available jack rating per jack? Use 224.8 lbf/kN and 2,000 lbf/US ton.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "90 tons"
+      },
+      {
+        "id": "B",
+        "text": "100 tons"
+      },
+      {
+        "id": "C",
+        "text": "110 tons"
+      },
+      {
+        "id": "D",
+        "text": "125 tons"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Design load=2,400(1.15)=2,760 kN; per jack 920 kN; rating=920(224.8)/2,000=103.408 tons. Select 110 tons, smallest listed rating above demand.",
+    "engineering_note": "Capacity must meet/exceed demand; choose next adequate listed rating.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-003-B",
+    "family_id": "TRAN-003",
+    "source_concept_number": 3,
+    "concept": "Hydraulic jack selection",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given 3 rated jacks, reverse-solve maximum supported total load with allowance.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-003-C",
+    "family_id": "TRAN-003",
+    "source_concept_number": 3,
+    "concept": "Hydraulic jack selection",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Choose number of available 80-ton jacks required for a target load, rounding up.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-004-A",
+    "family_id": "TRAN-004",
+    "source_concept_number": 4,
+    "concept": "Critical path scheduling",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "Roadway activity durations (days): A survey 3; B utilities 8 after A; C drainage 6 after A; D base 5 after B and C; E paving 4 after D; F guardrail procurement 16 from start; G guardrail 3 after E and F; H markings 2 after E; I inspection 1 after G and H. What is the earliest finish?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "22 days"
+      },
+      {
+        "id": "B",
+        "text": "23 days"
+      },
+      {
+        "id": "C",
+        "text": "24 days"
+      },
+      {
+        "id": "D",
+        "text": "27 days"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "A ends 3; B 11,C 9; D starts 11 ends 16; E ends 20; F ends 16; G ends 23; H ends 22; I ends 24. Critical A-B-D-E-G-I=24 days.",
+    "engineering_note": "Parallel activities overlap; all predecessors must finish.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-004-B",
+    "family_id": "TRAN-004",
+    "source_concept_number": 4,
+    "concept": "Critical path scheduling",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Delay procurement by 8 days; recompute project completion and critical path.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-004-C",
+    "family_id": "TRAN-004",
+    "source_concept_number": 4,
+    "concept": "Critical path scheduling",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given required 22-day finish, identify which controlling activity can be reduced to achieve it.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-006-A",
+    "family_id": "TRAN-006",
+    "source_concept_number": 6,
+    "concept": "Straight-line depreciation",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "A contractor buys a soil compactor for $265,000, expects $40,000 salvage after 15 years. What is book value after year 9 using straight-line depreciation?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "$94,000"
+      },
+      {
+        "id": "B",
+        "text": "$115,000"
+      },
+      {
+        "id": "C",
+        "text": "$130,000"
+      },
+      {
+        "id": "D",
+        "text": "$175,000"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Annual depreciation=(265,000−40,000)/15=$15,000; book value=265,000−9(15,000)=$130,000.",
+    "engineering_note": "Use depreciable basis less salvage.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-006-B",
+    "family_id": "TRAN-006",
+    "source_concept_number": 6,
+    "concept": "Straight-line depreciation",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given purchase/salvage and target book value, find elapsed service years.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-006-C",
+    "family_id": "TRAN-006",
+    "source_concept_number": 6,
+    "concept": "Straight-line depreciation",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given annual depreciation and end-of-life salvage, reverse-solve initial purchase price.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-007-A",
+    "family_id": "TRAN-007",
+    "source_concept_number": 7,
+    "concept": "Capital recovery with grant",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "A $7.2m roadway reconstruction receives a $1.2m grant at inception. Finance the remainder at 5% over 15 equal end-of-year payments. Approximate annual payment?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "$400,000"
+      },
+      {
+        "id": "B",
+        "text": "$578,000"
+      },
+      {
+        "id": "C",
+        "text": "$694,000"
+      },
+      {
+        "id": "D",
+        "text": "$720,000"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "P=7.2m−1.2m=6m; A=P[.05(1.05)^15/((1.05)^15−1)]≈$578,054/year.",
+    "engineering_note": "Grant lowers financed principal; annuity applies only to financed portion.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-007-B",
+    "family_id": "TRAN-007",
+    "source_concept_number": 7,
+    "concept": "Capital recovery with grant",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given annual payment, rate, term and grant, reverse-solve maximum total project cost.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-007-C",
+    "family_id": "TRAN-007",
+    "source_concept_number": 7,
+    "concept": "Capital recovery with grant",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Compare 15- and 20-year loan terms with the same principal to identify annual payment difference.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-008-A",
+    "family_id": "TRAN-008",
+    "source_concept_number": 8,
+    "concept": "Basic freeway density and LOS",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "A freeway direction has 3 lanes, V=3,200 veh/h, PHF=.92, 10% heavy vehicles with E=2.0, measured operating speed 60 mph. Using stated density thresholds A≤11, B≤18, C≤26, D≤35 pc/mi/ln, classify LOS.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "LOS A"
+      },
+      {
+        "id": "B",
+        "text": "LOS B"
+      },
+      {
+        "id": "C",
+        "text": "LOS C"
+      },
+      {
+        "id": "D",
+        "text": "LOS D"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "fHV=1/[1+.10(2−1)]=.90909; vp=3,200/(.92·3·.90909)=1,275.36 pc/h/ln; density=21.26 pc/mi/ln; supplied threshold LOS C.",
+    "engineering_note": "The LOS thresholds are stipulated for this practice exercise; edition-specific HCM review is required.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-008-B",
+    "family_id": "TRAN-008",
+    "source_concept_number": 8,
+    "concept": "Basic freeway density and LOS",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given LOS C maximum density and speed, determine maximum allowable adjusted directional volume.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-008-C",
+    "family_id": "TRAN-008",
+    "source_concept_number": 8,
+    "concept": "Basic freeway density and LOS",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Reverse-solve number of directional lanes needed to keep density below a specified threshold.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-009-A",
+    "family_id": "TRAN-009",
+    "source_concept_number": 9,
+    "concept": "Long weave flow and density",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "A sufficiently long four-lane freeway weave has movement flows of 3,900, 750, 500, and 450 pc/h. Mean speed is 54 mph. Find density at middle, treating it as basic segment.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "22 pc/mi/ln"
+      },
+      {
+        "id": "B",
+        "text": "26 pc/mi/ln"
+      },
+      {
+        "id": "C",
+        "text": "29 pc/mi/ln"
+      },
+      {
+        "id": "D",
+        "text": "33 pc/mi/ln"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "Total=5,600 pc/h; per lane=1,400 pc/h/ln; density=1,400/54=25.93 pc/mi/ln.",
+    "engineering_note": "Long-segment basic-flow assumption is expressly supplied.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-009-B",
+    "family_id": "TRAN-009",
+    "source_concept_number": 9,
+    "concept": "Long weave flow and density",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given density, flows, and lanes, solve the mean operating speed.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-009-C",
+    "family_id": "TRAN-009",
+    "source_concept_number": 9,
+    "concept": "Long weave flow and density",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Determine how adding one lane changes density, holding total flow and speed constant.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-010-A",
+    "family_id": "TRAN-010",
+    "source_concept_number": 10,
+    "concept": "Saturation flow factors",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "A shared right-turn/through signal lane group has 12-ft lanes, PHF=.88, 100-s cycle, and high conflicting pedestrian activity. Which factor adjusts base saturation flow?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "PHF"
+      },
+      {
+        "id": "B",
+        "text": "100-s cycle"
+      },
+      {
+        "id": "C",
+        "text": "Conflicting pedestrians"
+      },
+      {
+        "id": "D",
+        "text": "Standard 12-ft width"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Conflicting pedestrians affect turn movements and can require saturation flow adjustment. PHF adjusts demand, while cycle length enters capacity calculation.",
+    "engineering_note": "Confirm exact HCM procedure and lane-group configuration before publication.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-010-B",
+    "family_id": "TRAN-010",
+    "source_concept_number": 10,
+    "concept": "Saturation flow factors",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Compare base saturation-flow adjustment with PHF conversion for the same approach.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-010-C",
+    "family_id": "TRAN-010",
+    "source_concept_number": 10,
+    "concept": "Saturation flow factors",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given an adjusted saturation flow and effective green, calculate capacity; distinguish the two stages.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-011-A",
+    "family_id": "TRAN-011",
+    "source_concept_number": 11,
+    "concept": "Effective green and capacity",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "A one-lane approach has a 100-s cycle, 32-s displayed green, 4-s clearance, 2-s startup loss, 1-s clearance loss and 2.5-s saturation headway. Find capacity.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "432 veh/h"
+      },
+      {
+        "id": "B",
+        "text": "475 veh/h"
+      },
+      {
+        "id": "C",
+        "text": "518 veh/h"
+      },
+      {
+        "id": "D",
+        "text": "576 veh/h"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "s=3600/2.5=1,440 veh/h; effective green=32+4−2−1=33 s; capacity=1,440(33/100)=475.2 veh/h.",
+    "engineering_note": "Use effective rather than displayed green.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-011-B",
+    "family_id": "TRAN-011",
+    "source_concept_number": 11,
+    "concept": "Effective green and capacity",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given required lane capacity, reverse-solve effective green time at fixed cycle and headway.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-011-C",
+    "family_id": "TRAN-011",
+    "source_concept_number": 11,
+    "concept": "Effective green and capacity",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given same green intervals but two approach lanes, compute lane-group capacity.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-013-A",
+    "family_id": "TRAN-013",
+    "source_concept_number": 13,
+    "concept": "Day-of-week adjustment",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "Reference arterial daily counts Sunday through Saturday are 7200,9200,8600,9800,10500,11200,7500. Comparable site counted 7,350 on Wednesday. Estimate its seven-day ADT by ratio adjustment.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "6,200 veh/day"
+      },
+      {
+        "id": "B",
+        "text": "6,850 veh/day"
+      },
+      {
+        "id": "C",
+        "text": "7,350 veh/day"
+      },
+      {
+        "id": "D",
+        "text": "8,900 veh/day"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "Reference week sum=64,000; mean=9,142.857; Wednesday factor=9,142.857/9,800; target ADT=7,350·factor=6,857.14 veh/day.",
+    "engineering_note": "Match same day and comparable site.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-013-B",
+    "family_id": "TRAN-013",
+    "source_concept_number": 13,
+    "concept": "Day-of-week adjustment",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given target ADT and reference factor, reverse-solve the observed Wednesday count.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-013-C",
+    "family_id": "TRAN-013",
+    "source_concept_number": 13,
+    "concept": "Day-of-week adjustment",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Use a Tuesday count and recompute with the appropriate day-of-week factor.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-015-A",
+    "family_id": "TRAN-015",
+    "source_concept_number": 15,
+    "concept": "Crash rate per million entering vehicles",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "An intersection receives 18,000 vehicles/day and has 17 crashes in two 365-day years. Find crashes per million entering vehicles.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "0.65"
+      },
+      {
+        "id": "B",
+        "text": "1.29"
+      },
+      {
+        "id": "C",
+        "text": "2.59"
+      },
+      {
+        "id": "D",
+        "text": "4.72"
+      }
+    ],
+    "correct_answer": "B",
+    "solution": "R=17·1,000,000/[18,000·365·2]=1.294 crashes/MEV.",
+    "engineering_note": "Exposure is entering vehicles × study days.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-015-B",
+    "family_id": "TRAN-015",
+    "source_concept_number": 15,
+    "concept": "Crash rate per million entering vehicles",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given a crash rate and entering ADT, determine predicted study-period count.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-015-C",
+    "family_id": "TRAN-015",
+    "source_concept_number": 15,
+    "concept": "Crash rate per million entering vehicles",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given 9 months of observed crashes, compute exposure using actual stated number of days.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-016-A",
+    "family_id": "TRAN-016",
+    "source_concept_number": 16,
+    "concept": "Pedestrian space and LOS",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "A 7-ft effective-width walkway carries 900 pedestrians in 15 minutes at 250 ft/min. Using stipulated space categories B=40–<60, C=24–<40, D=15–<24 ft²/ped, classify LOS.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "LOS A"
+      },
+      {
+        "id": "B",
+        "text": "LOS B"
+      },
+      {
+        "id": "C",
+        "text": "LOS C"
+      },
+      {
+        "id": "D",
+        "text": "LOS D"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Unit flow=900/(15·7)=8.571 ped/min/ft; pedestrian space=250/8.571=29.17 ft²/ped, within stipulated C range.",
+    "engineering_note": "LOS table stipulated; verify HCM platoon/random flow distinction before release.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-016-B",
+    "family_id": "TRAN-016",
+    "source_concept_number": 16,
+    "concept": "Pedestrian space and LOS",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given target LOS C minimum space and speed, solve maximum peak-15-min count.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-016-C",
+    "family_id": "TRAN-016",
+    "source_concept_number": 16,
+    "concept": "Pedestrian space and LOS",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given pedestrian count and target pedestrian space, solve effective walkway width.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-017-A",
+    "family_id": "TRAN-017",
+    "source_concept_number": 17,
+    "concept": "Compound growth",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "An arterial has current ADT 16,500 and expected annual growth of 4.5% for 8 years. Forecast ADT.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "19,800"
+      },
+      {
+        "id": "B",
+        "text": "21,200"
+      },
+      {
+        "id": "C",
+        "text": "23,500"
+      },
+      {
+        "id": "D",
+        "text": "26,800"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "ADT_future=16,500(1.045)^8≈23,465 veh/day.",
+    "engineering_note": "Compound, not simple, annual growth.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-017-B",
+    "family_id": "TRAN-017",
+    "source_concept_number": 17,
+    "concept": "Compound growth",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Reverse-solve existing ADT from a future target and annual growth rate.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-017-C",
+    "family_id": "TRAN-017",
+    "source_concept_number": 17,
+    "concept": "Compound growth",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Determine years to first exceed a specified ADT threshold; whole-year count rounds up.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-019-A",
+    "family_id": "TRAN-019",
+    "source_concept_number": 19,
+    "concept": "Lateral clearance against stipulated criterion",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "Project criteria require rigid objects at least 6 ft behind the curb on a specified curved segment. A light pole is 4.5 ft behind curb. How far farther must it move?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "0.5 ft"
+      },
+      {
+        "id": "B",
+        "text": "1.0 ft"
+      },
+      {
+        "id": "C",
+        "text": "1.5 ft"
+      },
+      {
+        "id": "D",
+        "text": "2.5 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "6−4.5=1.5 ft additional offset.",
+    "engineering_note": "Project-specific 6-ft criterion is stipulated; not asserted universal AASHTO requirement.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-019-B",
+    "family_id": "TRAN-019",
+    "source_concept_number": 19,
+    "concept": "Lateral clearance against stipulated criterion",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given two pole locations, identify which satisfies a stipulated minimum offset.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-019-C",
+    "family_id": "TRAN-019",
+    "source_concept_number": 19,
+    "concept": "Lateral clearance against stipulated criterion",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Reverse-solve allowed foundation width given fixed right-of-way and stated clearance.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-020-A",
+    "family_id": "TRAN-020",
+    "source_concept_number": 20,
+    "concept": "Completely inelastic barrier impact",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "A 2,400-lb maintenance vehicle at 50 mph collides with a stationary 800-lb barrel; assume the objects move together after collision and ignore external impulse. Find shared speed.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "30 mph"
+      },
+      {
+        "id": "B",
+        "text": "35 mph"
+      },
+      {
+        "id": "C",
+        "text": "37.5 mph"
+      },
+      {
+        "id": "D",
+        "text": "42 mph"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Momentum: v=2,400·50/(2,400+800)=37.5 mph.",
+    "engineering_note": "Weights may be used in ratio because g cancels; explicitly inelastic.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-020-B",
+    "family_id": "TRAN-020",
+    "source_concept_number": 20,
+    "concept": "Completely inelastic barrier impact",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given incoming speed, final speed and vehicle weight, solve stationary barrel weight.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-020-C",
+    "family_id": "TRAN-020",
+    "source_concept_number": 20,
+    "concept": "Completely inelastic barrier impact",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given two sequential stationary barrels, calculate speed after the second inelastic impact.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-022-A",
+    "family_id": "TRAN-022",
+    "source_concept_number": 22,
+    "concept": "Ramp shoulder criterion application",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "A project-specific design criterion calls for a directional ramp paved right shoulder between 8 and 10 ft. Which proposed width meets it?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "3 ft"
+      },
+      {
+        "id": "B",
+        "text": "5 ft"
+      },
+      {
+        "id": "C",
+        "text": "7 ft"
+      },
+      {
+        "id": "D",
+        "text": "9 ft"
+      }
+    ],
+    "correct_answer": "D",
+    "solution": "9 ft falls in the stipulated 8–10-ft interval.",
+    "engineering_note": "Check current governing edition and agency manual before publication.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-022-B",
+    "family_id": "TRAN-022",
+    "source_concept_number": 22,
+    "concept": "Ramp shoulder criterion application",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given available corridor width, choose design option meeting both stipulated shoulder and lane requirements.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-022-C",
+    "family_id": "TRAN-022",
+    "source_concept_number": 22,
+    "concept": "Ramp shoulder criterion application",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Identify whether a proposed 8-ft shoulder satisfies a stated inclusive range.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-023-A",
+    "family_id": "TRAN-023",
+    "source_concept_number": 23,
+    "concept": "Layer elevation with crowned section",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "A roadway has top-of-curb elevation 103.00 ft, 6-in curb reveal, 7.2-in pavement and 9.6-in aggregate base. Centerline is 14 ft from gutter and 2% higher. Determine centerline bottom-of-base elevation.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "100.82 ft"
+      },
+      {
+        "id": "B",
+        "text": "101.10 ft"
+      },
+      {
+        "id": "C",
+        "text": "101.38 ft"
+      },
+      {
+        "id": "D",
+        "text": "102.22 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Gutter=103−.5=102.5; CL top=102.5+14(.02)=102.78; bottom base=102.78−.6−.8=101.38 ft.",
+    "engineering_note": "Clearly distinguish curb elevation and gutter elevation; confirm diagram convention.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-023-B",
+    "family_id": "TRAN-023",
+    "source_concept_number": 23,
+    "concept": "Layer elevation with crowned section",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Reverse-solve required top-of-curb elevation given centerline bottom-of-base target.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-023-C",
+    "family_id": "TRAN-023",
+    "source_concept_number": 23,
+    "concept": "Layer elevation with crowned section",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Evaluate an asymmetric cross slope and determine critical bottom-of-base elevation.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-024-A",
+    "family_id": "TRAN-024",
+    "source_concept_number": 24,
+    "concept": "Curb ramp running slope",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "For this exercise the governing maximum ramp running slope is 1V:12H. Express it as a percent.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "5.00%"
+      },
+      {
+        "id": "B",
+        "text": "6.67%"
+      },
+      {
+        "id": "C",
+        "text": "8.33%"
+      },
+      {
+        "id": "D",
+        "text": "12.00%"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "(1/12)×100=8.333%.",
+    "engineering_note": "Standard and any exceptions require edition-specific accessibility review.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-024-B",
+    "family_id": "TRAN-024",
+    "source_concept_number": 24,
+    "concept": "Curb ramp running slope",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given a rise, calculate minimum horizontal ramp run under stipulated maximum slope.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-024-C",
+    "family_id": "TRAN-024",
+    "source_concept_number": 24,
+    "concept": "Curb ramp running slope",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given available ramp run, calculate maximum allowable rise and assess compliance.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-026-A",
+    "family_id": "TRAN-026",
+    "source_concept_number": 26,
+    "concept": "Circular curve PT station",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "A simple curve has PI 23+65.00, arc degree of curve 7°, deflection 18°. Find PT station.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "23+95.36"
+      },
+      {
+        "id": "B",
+        "text": "24+22.50"
+      },
+      {
+        "id": "C",
+        "text": "24+92.50"
+      },
+      {
+        "id": "D",
+        "text": "25+35.14"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "R=5729.58/7; T=Rtan9°=129.64 ft; PC=2365−T=2235.36; L=100(18)/7=257.143; PT=2492.50=24+92.50.",
+    "engineering_note": "Arc degree definition explicitly given.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-026-B",
+    "family_id": "TRAN-026",
+    "source_concept_number": 26,
+    "concept": "Circular curve PT station",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given PT and PI station, reverse-solve arc-degree curve for stipulated deflection.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-026-C",
+    "family_id": "TRAN-026",
+    "source_concept_number": 26,
+    "concept": "Circular curve PT station",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given PC, R and intersection angle, determine both PI and PT stations.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-027-A",
+    "family_id": "TRAN-027",
+    "source_concept_number": 27,
+    "concept": "Fixed-PC curve radius",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "An existing simple curve has R=1,000 ft and deflection 60°. New PI is 150 ft farther along incoming tangent, with PC and deflection held fixed. Find revised radius.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "1,000 ft"
+      },
+      {
+        "id": "B",
+        "text": "1,150 ft"
+      },
+      {
+        "id": "C",
+        "text": "1,260 ft"
+      },
+      {
+        "id": "D",
+        "text": "1,450 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Old T=1000 tan30°=577.35 ft; new T=727.35; Rnew=727.35/tan30°=1259.81 ft.",
+    "engineering_note": "Geometry and direction of PI move must be explicit.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-027-B",
+    "family_id": "TRAN-027",
+    "source_concept_number": 27,
+    "concept": "Fixed-PC curve radius",
+    "variation": "planned_transfer_variant",
+    "variation_design": "For a PI moved toward a fixed PC, determine new radius.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-027-C",
+    "family_id": "TRAN-027",
+    "source_concept_number": 27,
+    "concept": "Fixed-PC curve radius",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given original and proposed radius, determine required PI displacement along fixed back tangent.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-028-A",
+    "family_id": "TRAN-028",
+    "source_concept_number": 28,
+    "concept": "Perception-reaction distance difference",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "Driver A travels 50 mph and reacts in 2.5 s; Driver B travels 60 mph and reacts in 3.25 s. Difference in distances traveled before braking?",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "55 ft"
+      },
+      {
+        "id": "B",
+        "text": "78 ft"
+      },
+      {
+        "id": "C",
+        "text": "103 ft"
+      },
+      {
+        "id": "D",
+        "text": "145 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Difference=1.46667[60(3.25)−50(2.5)]=102.67 ft.",
+    "engineering_note": "Do not include braking distance; question asks perception-reaction only.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-028-B",
+    "family_id": "TRAN-028",
+    "source_concept_number": 28,
+    "concept": "Perception-reaction distance difference",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given equal speed but different reaction times, solve additional distance.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-028-C",
+    "family_id": "TRAN-028",
+    "source_concept_number": 28,
+    "concept": "Perception-reaction distance difference",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given maximum permitted reaction distance, reverse-solve upper speed.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-029-A",
+    "family_id": "TRAN-029",
+    "source_concept_number": 29,
+    "concept": "Horizontal sightline offset",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "Inside lane centerline radius 1,000 ft; V=50 mph, t=2.5 s, deceleration=11.2 ft/s², level grade, sightline not limited by curve length. Estimate required HSO.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "16 ft"
+      },
+      {
+        "id": "B",
+        "text": "19 ft"
+      },
+      {
+        "id": "C",
+        "text": "22 ft"
+      },
+      {
+        "id": "D",
+        "text": "29 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "SSD=1.46667(50)(2.5)+1.075(50²)/11.2≈423.3 ft; HSO=1000[1−cos(SSD/(2·1000))]≈22.32 ft.",
+    "engineering_note": "Cosine argument must be radians; design assumptions stipulated.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-029-B",
+    "family_id": "TRAN-029",
+    "source_concept_number": 29,
+    "concept": "Horizontal sightline offset",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given existing HSO and radius, solve maximum available sight distance.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-029-C",
+    "family_id": "TRAN-029",
+    "source_concept_number": 29,
+    "concept": "Horizontal sightline offset",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given required SSD and a fixed offset, reverse-solve minimum geometric radius.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-030-A",
+    "family_id": "TRAN-030",
+    "source_concept_number": 30,
+    "concept": "Equilibrium superelevation",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "A curve is designed for 65 mph, radius 1400 ft and side-friction allowance .11. Using simplified e+f=V²/(15R), estimate e.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "5%"
+      },
+      {
+        "id": "B",
+        "text": "7%"
+      },
+      {
+        "id": "C",
+        "text": "9%"
+      },
+      {
+        "id": "D",
+        "text": "12%"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "e=65²/(15·1400)−.11=.09119≈9.1%.",
+    "engineering_note": "Computed equilibrium rate is not automatically agency-approved design rate.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-030-B",
+    "family_id": "TRAN-030",
+    "source_concept_number": 30,
+    "concept": "Equilibrium superelevation",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given maximum e and allowable f, solve minimum radius.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-030-C",
+    "family_id": "TRAN-030",
+    "source_concept_number": 30,
+    "concept": "Equilibrium superelevation",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given radius and maximum e, solve friction demand and compare to stated allowable value.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-031-A",
+    "family_id": "TRAN-031",
+    "source_concept_number": 31,
+    "concept": "Superelevation transition",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "A four-lane undivided highway rotates 24 ft on controlling side from 2% crown to 6% full super. Relative gradient .006. Determine combined runout/runoff length under supplied method.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "160 ft"
+      },
+      {
+        "id": "B",
+        "text": "240 ft"
+      },
+      {
+        "id": "C",
+        "text": "320 ft"
+      },
+      {
+        "id": "D",
+        "text": "400 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "Runoff=24(.06)/.006=240 ft; runout=240(.02/.06)=80 ft; total=320 ft.",
+    "engineering_note": "Confirm adopted pivot method and adjustment factors for final reference review.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-031-B",
+    "family_id": "TRAN-031",
+    "source_concept_number": 31,
+    "concept": "Superelevation transition",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given available transition distance, reverse-solve achievable design e.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-031-C",
+    "family_id": "TRAN-031",
+    "source_concept_number": 31,
+    "concept": "Superelevation transition",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Compare pivot about centerline and edge with explicitly stipulated rotation widths.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-032-A",
+    "family_id": "TRAN-032",
+    "source_concept_number": 32,
+    "concept": "Compound curve second radius",
+    "variation": "base",
+    "question_type": "multiple_choice",
+    "problem_statement": "Two simple curves turn same direction, share common tangent, R1=900 ft, Δ1=20°, Δ2=30°, and PI-to-PI distance along common tangent is 850 ft. Find R2.",
+    "answer_choices": [
+      {
+        "id": "A",
+        "text": "2,100 ft"
+      },
+      {
+        "id": "B",
+        "text": "2,300 ft"
+      },
+      {
+        "id": "C",
+        "text": "2,580 ft"
+      },
+      {
+        "id": "D",
+        "text": "2,850 ft"
+      }
+    ],
+    "correct_answer": "C",
+    "solution": "T1=900tan10°=158.69; T2=850−T1=691.31; R2=T2/tan15°≈2580.3 ft.",
+    "engineering_note": "Assumes common tangent connecting two PIs with shared PCC.",
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "DO_NOT_PUBLISH_UNTIL_REVIEW",
+    "verification_status": "DRAFT_CALCULATED_NOT_INDEPENDENTLY_SIGNED_OFF",
+    "origin": "Earlier conversation draft, edited for consistency"
+  },
+  {
+    "id": "TRAN-032-B",
+    "family_id": "TRAN-032",
+    "source_concept_number": 32,
+    "concept": "Compound curve second radius",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given both radii and angles, calculate PI-to-PI tangent distance.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  },
+  {
+    "id": "TRAN-032-C",
+    "family_id": "TRAN-032",
+    "source_concept_number": 32,
+    "concept": "Compound curve second radius",
+    "variation": "planned_transfer_variant",
+    "variation_design": "Given R1, R2, tangent distance and Δ1, reverse-solve Δ2.",
+    "question_type": "multiple_choice",
+    "problem_statement": null,
+    "answer_choices": null,
+    "correct_answer": null,
+    "solution": null,
+    "source_status": "REFERENCE_INSPIRED",
+    "publication_status": "NOT_QUIZ_READY",
+    "verification_status": "NOT_YET_AUTHORED",
+    "origin": "Variation plan; not a completed question"
+  }
+]
